@@ -113,8 +113,6 @@ interface ContentTypeInterface
      * Visit the content type.
      *
      * @param ContentTypeVisitorInterface $visitor The Visitor
-     *
-     * @return void
      */
     public function accept(ContentTypeVisitorInterface $visitor);
 
@@ -133,7 +131,7 @@ interface ContentTypeInterface
     public function getTitle();
 
     /**
-     * Gets the parameters for the content.
+     * Get the parameters for the content.
      *
      * @return array
      */
@@ -142,8 +140,8 @@ interface ContentTypeInterface
     /**
      * Get a parameter for the content.
      *
-     * @param string $key The key
-     * @param mixed $default The default value
+     * @param string $key     The key
+     * @param mixed  $default The default value
      *
      * @return mixed
      */
@@ -164,8 +162,6 @@ interface CompoundTypeInterface extends ContentTypeInterface
      * Add a content element as a child.
      *
      * @param ContentTypeInterface $content The content element
-     *
-     * @return void
      */
     public function addChild(ContentTypeInterface $content);
 
@@ -173,13 +169,11 @@ interface CompoundTypeInterface extends ContentTypeInterface
      * Remove a content element.
      *
      * @param ContentTypeInterface $content The content element
-     *
-     * @return void
      */
     public function removeChild(ContentTypeInterface $content);
 
     /**
-     * Get the child elements
+     * Get the child elements.
      *
      * @return ContentTypeInterface[]
      */
@@ -199,20 +193,16 @@ interface ContentTypeVisitorInterface
     /**
      * Process content.
      *
-     * @param string $contentType The name of the content type
-     * @param ContentTypeInterface $content The content
-     *
-     * @return void
+     * @param string               $contentType The name of the content type
+     * @param ContentTypeInterface $content     The content
      */
     public function visit($contentType, ContentTypeInterface $content);
 
     /**
      * Register a content type.
      *
-     * @param string $contentType The name of the content type
-     * @param callable|array|string $handler The handler for that type
-     *
-     * @return void
+     * @param string                $contentType The name of the content type
+     * @param callable|array|string $handler     The handler for that type
      */
     public function registerContentType($contentType, $handler);
 }
