@@ -110,42 +110,42 @@ namespace Joomla\Content;
 interface ContentTypeInterface
 {
     /**
-     * Visits the content type.
+     * Visit the content type.
      *
-     * @param   ContentTypeVisitorInterface $visitor The Visitor
+     * @param ContentTypeVisitorInterface $visitor The Visitor
      *
-     * @return  void
+     * @return void
      */
     public function accept(ContentTypeVisitorInterface $visitor);
 
     /**
-     * Gets the identifier for the content
+     * Get the identifier for the content.
      *
-     * @return  string
+     * @return string
      */
     public function getId();
 
     /**
-     * Gets the title for the content
+     * Get the title for the content.
      *
-     * @return  string
+     * @return string
      */
     public function getTitle();
 
     /**
-     * Gets the parameters for the content
+     * Gets the parameters for the content.
      *
-     * @return  array
+     * @return array
      */
     public function getParameters();
 
     /**
-     * Gets the parameters for the content
+     * Get a parameter for the content.
      *
-     * @param   string  $key     The key
-     * @param   mixed   $default The default value
+     * @param string $key The key
+     * @param mixed $default The default value
      *
-     * @return  mixed
+     * @return mixed
      */
     public function getParameter($key, $default = null);
 }
@@ -161,27 +161,27 @@ namespace Joomla\Content;
 interface CompoundTypeInterface extends ContentTypeInterface
 {
     /**
-     * Add a content element as a child
+     * Add a content element as a child.
      *
-     * @param   ContentTypeInterface $content The content element
+     * @param ContentTypeInterface $content The content element
      *
-     * @return  void
+     * @return void
      */
     public function addChild(ContentTypeInterface $content);
 
     /**
-     * Remove a content element
+     * Remove a content element.
      *
-     * @param   ContentTypeInterface $content The content element
+     * @param ContentTypeInterface $content The content element
      *
-     * @return  void
+     * @return void
      */
     public function removeChild(ContentTypeInterface $content);
 
     /**
      * Get the child elements
      *
-     * @return  ContentTypeInterface[]
+     * @return ContentTypeInterface[]
      */
     public function getChildren();
 }
@@ -199,20 +199,20 @@ interface ContentTypeVisitorInterface
     /**
      * Process content.
      *
-     * @param   string               $contentType The name of the content type
-     * @param   ContentTypeInterface $content     The content
+     * @param string $contentType The name of the content type
+     * @param ContentTypeInterface $content The content
      *
-     * @return  void
+     * @return void
      */
     public function visit($contentType, ContentTypeInterface $content);
 
     /**
      * Register a content type.
      *
-     * @param   string                $contentType The name of the content type
-     * @param   callable|array|string $handler     The handler for that type
+     * @param string $contentType The name of the content type
+     * @param callable|array|string $handler The handler for that type
      *
-     * @return  void
+     * @return void
      */
     public function registerContentType($contentType, $handler);
 }
