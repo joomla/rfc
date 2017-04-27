@@ -37,18 +37,19 @@ specification). Joomla! does not offer official translations into other language
 but other external entities are free to translate the RfCs in accordance
 with the license.
 
-## Voting Members
+## Voting
 
-Voting is restricted to the Team Leaders within the Production Department.
-The current list of Team Leaders is available on the [Volunteers Portal][].
+Voting is restricted to the Production Department Team Leaders and the Production 
+Department Coordinator. The current list of Team Leaders is available on the [Volunteers Portal][]. Voting is conducted following the [Voting Protocol][].
 
 [Volunteers Portal]: https://volunteers.joomla.org/departments/production
+[Voting Protocol]: bylaws/voting.md
 
 ## Attribution
 
 The wording and structure for the documents in this repository are heavily inspired
-by the [PHP FIG][]. In fact, the README, workflow bylaw, and the RfC document
-structure were created from copies of the FIG original.
+by the [PHP FIG][]. In fact, the README, workflow bylaw, voting protocol, and the 
+RfC document structure were created from copies of the FIG original.
 
 [PHP FIG]: http://www.php-fig.org/
 
