@@ -161,7 +161,7 @@ interface ContentElementInterface
      *
      * @return ContentElementInterface
      */
-    static public function from($data, $mapping = []);
+    public static function from($data, $mapping = []);
 
     /**
      * Visit the content element.
