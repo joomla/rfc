@@ -1,6 +1,10 @@
-# Content Types Meta Document
+# \<Subject> Meta Document
 
 ## 1. Summary
+
+_What is Subject about?_
+
+This specification aims to ...
 
 ## 2. Why Bother?
 
