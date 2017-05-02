@@ -158,10 +158,11 @@ interface ContentElementInterface
      *
      * @param array|object $data    The data container
      * @param array        $mapping The property mapping
+     * @param array        $params  The presentation parameters
      *
-     * @return ContentElementInterface
+     * @return self
      */
-    public static function from($data, $mapping = []);
+    public static function from($data, $mapping = [], $params = []);
 
     /**
      * Visit the content element.
@@ -172,6 +173,9 @@ interface ContentElementInterface
 
     /**
      * Get the value of a property.
+     *
+     * @param string $property The property
+     * @param mixed  $default  The default value
      *
      * @return mixed
      */
