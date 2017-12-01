@@ -3,7 +3,7 @@
 ## 1. Summary
 
 Content Elements are standardised Data Objects for presentation purposes. They 
-represent content structures and element behaviour in a way independant from the
+represent content structures and element behaviour in a way independent from the
 finally generated output.
  
 This specification aims to define flexible and useful Content Elements for output
@@ -24,7 +24,7 @@ corresponding renderer is provided.
 ### 3.1 Goals
 
 This specification aims to provide robust interfaces for Content Elements and their 
-processing that are independant from the output format.
+processing that are independent from the output format.
 
 ### 3.2 Non-Goals
 
@@ -37,17 +37,9 @@ format.
 
 [Composite Pattern]: https://en.wikipedia.org/wiki/Composite_pattern
 
-#### 4.1.1 Projects Using Composite Pattern
+### 4.2 Chosen Approach
 
-### 4.2 Approach 2
-
-#### 4.2.1 Projects Using Approach 2
-
-### 4.3 Comparison of Approaches
-
-### 4.4 Chosen Approach
-
-This specification defines Content Types using the [Composite Pattern][]. 
+This specification defines Content Elements using the [Composite Pattern][]. 
  
 ## 5. Design Decisions
 

@@ -31,9 +31,8 @@ is that it will not get seen or addressed in foreseeable time.
 
 ## Language and Translations
 
-All Joomla! Feature / Specification RfCs are written in British English or American
-English (Different RfCs may vary, but it is consistent within the same
-specification). Joomla! does not offer official translations into other languages
+All Joomla! Feature / Specification RfCs are written in English.
+Joomla! does not offer official translations into other languages
 but other external entities are free to translate the RfCs in accordance
 with the license.
 
