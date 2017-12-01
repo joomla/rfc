@@ -36,7 +36,7 @@ votes, and a second sponsor.
 
 | Num | Title                          | Editor                           |  Coordinator            | Sponsor           |
 |:---:|--------------------------------|----------------------------------|-------------------------|-------------------|
-| N/A | [Content Types][contenttypes]  | Niels Braczek <nbraczek@bsds.de> | N/A                     | N/A               |
+| N/A | [Content Elements][contentelements]  | Niels Braczek <nbraczek@bsds.de> | N/A                     | N/A               |
 
 ### Deprecated
 
@@ -52,5 +52,5 @@ votes, and a second sponsor.
 
 _**Legend:** A = Accepted | D = Draft | P = Pre-Draft | R = Review | X = Deprecated_
 
-[workflow]: https://github.com/nibra/joomla-standards/blob/master/bylaws/workflow.md
-[contenttypes]: https://github.com/nibra/joomla-Specifications/tree/master/proposed
+[workflow]: https://github.com/joomla-x/joomla-standards/blob/master/bylaws/workflow.md
+[contentelements]: https://github.com/joomla-x/joomla-Specifications/tree/master/proposed

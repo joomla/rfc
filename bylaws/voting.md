@@ -12,6 +12,6 @@
 6. The measure passes if a simple majority of the votes cast are “in favor”. The measure does not pass otherwise. For example:
   > - If there are 10 or 11 votes cast, 6 or more must be "in favor".
   > - If there are 12 or 13 votes cast, 7 or more must be "in favor".
-7. Responsibility for vote tallying is shared between the member who starts a vote and the FIG Secretaries, both of whom should confirm the result.
+7. Responsibility for vote tallying is shared between the member who starts a vote and the sponsors of the measure, both of whom should confirm the result.
 
 _N.b.: “Abstain” votes are counted only for quorum, and are not counted when calculating majority._
