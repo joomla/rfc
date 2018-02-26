@@ -27,10 +27,12 @@ The following interface MUST be implemented by compatible Authorisation Services
 ```php
 namespace Joomla\Service\Authorisation
 
+use Joomla\DI\ServiceProviderInterface;
+
 /**
- * AuthorisationInterface
+ * AuthorisationServiceInterface
  */
-interface AuthorisationInterface
+interface AuthorisationServiceInterface extends ServiceProviderInterface
 {
     /**
      * Check if a particular user is allowed to take a particular action on a particular class or object.
