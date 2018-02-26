@@ -20,7 +20,7 @@ interpreted as described in [RFC 2119][].
 
 ## 2. Interfaces
 
-### 2.1 AuthorisationInterface
+### 2.1 AuthorisationServiceInterface
 
 The following interface MUST be implemented by compatible Authorisation Services.
 
