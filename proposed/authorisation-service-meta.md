@@ -23,6 +23,12 @@ The setup and creation of roles and permissions is up to the implementation and 
 
 ## 4. Approaches
 
+Privileges are three-dimensional:
+
+  * **Actor** - a user or a role
+  * **Action** - a verb, sometimes with an intrinsic object
+  * **Entity** - an entity or a class of entities 
+
 ### 4.1 Access Control in the User Object
 
 #### Examples
@@ -53,7 +59,7 @@ $allowed = JFactory::getUser()->authorise('core.delete', 'com_content.article.' 
 
 ### 4.3 Comparison of Approaches
 
-While having Access Control in the User Object seems very convenient, it requires the user object to support access control explicitly, which violates the Separation of Concern Principle.
+While having access control in the user object seems very convenient, it requires the user object to support access control explicitly, which violates the [Single Responsibility Principle][].
  
 ### 4.4 Chosen Approach
 
@@ -61,6 +67,14 @@ This specification follows the Separated Access Control approach.
 
 ## 5. Design Decisions
 
+* Some actions, like for example 'access-dashboard', do not need an entity to be applied to.
+  They operate on an 'intrinsic' thing, in this case the dashboard.
+  The interfaces make the corresponding parameter optional to address such cases.
+  It is up to then implementation to check if the supplied information is sufficient.
+* The service API is separated into two interfaces.
+  * The *Basic Authorisation Service* interface covers the most widely spread use case for an authentication service and should be easy to implement upon any authorisation solution.
+  * The *Extended Authorisation Service* allows the access to a whole dimension (users, actions or entities), when the two other values are known. They are very useful in some special cases, but not needed in average components. 
+ 
 ## 6. People
 
 ### 6.1 Editor(s)
@@ -82,7 +96,9 @@ This specification follows the Separated Access Control approach.
 
 ## 8. Relevant Links
 
-_**Note:** Order descending chronologically._
+* Wikipedia article on [Single Responsibility Principle][]
+
+[Single Responsibility Principle]: https://en.wikipedia.org/wiki/Single_responsibility_principle
 
 ## 9. Errata
 
