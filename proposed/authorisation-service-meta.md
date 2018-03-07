@@ -51,8 +51,6 @@ $allowed = JFactory::getUser()->authorise('core.delete', 'com_content.article.' 
   * Joomla 3
   * Zizaco/[Entrust][] (Laravel 5 Package)
   
-[Entrust]: https://github.com/Zizaco/entrust
-
 ### 4.2 Separated Access Control
 
 #### 4.2.1 Projects Using Separated Access Control
@@ -97,8 +95,11 @@ This specification follows the Separated Access Control approach.
 ## 8. Relevant Links
 
 * Wikipedia article on [Single Responsibility Principle][]
+* [Bouncer](https://github.com/JosephSilber/bouncer) is an elegant, framework-agnostic approach to managing roles and abilities for any app using Eloquent models.
+* [Entrust][] is a succinct and flexible way to add Role-based Permissions to Laravel 5.
 
 [Single Responsibility Principle]: https://en.wikipedia.org/wiki/Single_responsibility_principle
+[Entrust]: https://github.com/Zizaco/entrust
 
 ## 9. Errata
 
