@@ -37,14 +37,14 @@ interface AuthorisationServiceInterface extends ServiceProviderInterface
     /**
      * Check if a particular user is allowed to take a particular action on a particular class or object.
      *
-     * @param  UserInterface  $user           The user that will take action
-     * @param  string         $action         The action to be taken
-     * @param  string|object  $classOrObject  The class or object to act on.
-     *                                        May be omitted, if `$action` does not require an object.
+     * @param  UserInterface  $actor   The user that will take action
+     * @param  string         $action  The action to be taken
+     * @param  string|object  $target  The class or object to act on.
+     *                                 May be omitted, if `$action` does not require an object.
      *
      * @return bool
      */
-    public function isAllowed($user, $action, $classOrObject = null): bool;
+    public function isAllowed($actor, $action, $target = null): bool;
 }
 ```
 
@@ -61,36 +61,36 @@ namespace Joomla\Service\Authorisation
 interface ExtendedAuthorisationServiceInterface extends AuthorisationServiceInterface
 {
     /**
-     * Get a list of users that are allowed to take an action on a particular class or object.
+     * Get a list of actors (users) that are allowed to take an action on a particular target (class or object).
      *
-     * @param  string         $action         The action to be taken
-     * @param  string|object  $classOrObject  The class or object to act on.
-     *                                        May be omitted, if `$action` does not require an object.
+     * @param  string         $action  The action to be taken
+     * @param  string|object  $target  The class or object to act on.
+     *                                 May be omitted, if `$action` does not require an object.
      *
      * @return UserInterface[]
      */
-    public function getUsers($action, $classOrObject = null): array;
+    public function getActors($action, $target = null): array;
 
     /**
-     * Get a list of actions that a particular user is allowed to take on a particular class or object.
+     * Get a list of actions that a particular actor (user) is allowed to take on a particular target (class or object).
      *
-     * @param  UserInterface  $user           The user that will take action
-     * @param  string|object  $classOrObject  The class or object to act on.
-     *                                        May be omitted, if `$action` does not require an object.
+     * @param  UserInterface  $actor   The user that will take action
+     * @param  string|object  $target  The class or object to act on.
+     *                                 May be omitted, if `$action` does not require an object.
      *
      * @return string[]
      */
-    public function getActions($user, $classOrObject = null): array;
+    public function getActions($actor, $target = null): array;
 
     /**
-     * Get a list of objects that a particular user is allowed to take a particular action on.
+     * Get a list of targets (objects) that a particular actor (user) is allowed to take a particular action on.
      *
-     * @param  UserInterface  $user    The role or user that will take action
-     * @param  string         $action  The action to be taken
-     * @param  string         $class   Optionally restrict to a particular class.
+     * @param  UserInterface  $actor        The role or user that will take action
+     * @param  string         $action       The action to be taken
+     * @param  string         $targetClass  Optionally restrict to a particular entity class.
      *
      * @return object[]
      */
-    public function getObjects($roleOrUser, $action, $class = null): array;
+    public function getObjects($actor, $action, $targetClass = null): array;
 }
 ```
