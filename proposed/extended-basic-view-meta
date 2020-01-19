@@ -14,14 +14,11 @@ Setting up a basic and a advanced view of the backend to help onboarding new use
 Also experienced users will take advantage of that because a non overloaded backend will make daily work easier
 The setting should be set in the user parameters
 
-
 ### 3.2 Non-Goals
 
 ## 4. Approaches
 
-### 4.1 Composite Pattern
-
-
+### 4.1 ...
 
 ### 4.2 Chosen Approach
  
@@ -30,6 +27,8 @@ The setting should be set in the user parameters
 ## 6. People
 
 ### 6.1 Editor(s)
+
+Elisa Foltyn <elisa.foltyn@joomla.community.org>
 
 ### 6.2 Sponsors
 
