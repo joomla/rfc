@@ -1,0 +1,50 @@
+# Basic and Extended View for Joomla Meta Document
+
+## 1. Summary
+Accessing the Backend with a more simple view
+
+## 2. Why Bother?
+
+Joomlas strenght is to have many options, many systems don’t have. But the backside of this is to irritate new users with the amount of settings.
+
+## 3. Scope
+
+### 3.1 Goals
+Setting up a basic and a advanced view of the backend to help onboarding new users
+Also experienced users will take advantage of that because a non overloaded backend will make daily work easier
+The setting should be set in the user parameters
+
+
+### 3.2 Non-Goals
+
+## 4. Approaches
+
+### 4.1 Composite Pattern
+
+
+
+### 4.2 Chosen Approach
+ 
+## 5. Design Decisions
+
+## 6. People
+
+### 6.1 Editor(s)
+
+### 6.2 Sponsors
+
+### 6.3 Contributors
+
+## 7. Votes
+
+* **Entrance Vote:** _(not yet taken)_
+* **Acceptance Vote:** _(not yet taken)_
+
+## 8. Relevant Links
+
+## 9. Errata
+
+
+
+
+
