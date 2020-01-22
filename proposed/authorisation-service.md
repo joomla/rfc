@@ -27,12 +27,10 @@ The following interface MUST be implemented by compatible Basic Authorisation Se
 ```php
 namespace Joomla\Service\Authorisation
 
-use Joomla\DI\ServiceProviderInterface;
-
 /**
  * Basic Authorisation Service Interface
  */
-interface AuthorisationServiceInterface extends ServiceProviderInterface
+interface AuthorisationServiceInterface
 {
     /**
      * Check if a particular user is allowed to take a particular action on a particular class or object.
@@ -58,7 +56,7 @@ namespace Joomla\Service\Authorisation
 /**
  * Extended Authorisation Service Interface
  */
-interface ExtendedAuthorisationServiceInterface extends AuthorisationServiceInterface
+interface ExtendedAuthorisationServiceInterface
 {
     /**
      * Get a list of actors (users) that are allowed to take an action on a particular target (class or object).
