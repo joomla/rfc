@@ -3,18 +3,14 @@
 ## 1. Summary
  
 This specification aims to define a more intuitive Backend for output.  
-
-In the *basic mode* the backend will show only important options. 
-It is going to add a switch for enable a advanced mode. 
-The *advanced mode* shows all possible options.  
-
+* This proposal is a result of the *Forum for the Future* and was proposed by Elisa Foltyn. 
 
 ## 2. Why Bother?
 
 A good start is essential!  
 
-Most desicions for using or not using a CMS are made during the probation period, 
-making the first tests with a CMS crucial for ensuring that useres get off to a flying start.  
+Most decisions for using or not using a CMS are made during the probation period, 
+making the first tests with a CMS crucial for ensuring that users get off to a flying start.  
 
 This in turn is essential for promoting long-term user loyalty.  
 
@@ -27,10 +23,6 @@ A successful user onboarding process helps us increase the user engagement.
 This specification aims to provide a clear backend: 
 A *view* that depends on the needs of the user.  
 
-By default, a simple, clear backend is offered with few but important options.   
-If a user has more experience, he can switch to advanced mode. 
-Then he will be offered all possible options.
-
 ### 3.2 Non-Goals
 
 This specification does not seek to make it possible, that a user can choose 
@@ -40,6 +32,14 @@ We would like to simplify the backend!
 ## 4. Approaches
 
 ### 4.1 Dashboard
+
+By default, a simple, clear backend is offered with few but important options.   
+If a user has more experience, he can switch to advanced mode. 
+Then he will be offered all possible options.
+
+In the *basic mode* the backend will show only important options. 
+It is going to add a switch for enable a advanced mode. 
+The *advanced mode* shows all possible options.  
 
 #### System
 
@@ -51,7 +51,6 @@ in the standard view and the others in the advanced view.
 
 ### 4.2 Chosen Approach
 
-This specification defines Content Elements using the [Composite Pattern][]. 
  
 ## 5. Design Decisions
 
@@ -59,8 +58,7 @@ This specification defines Content Elements using the [Composite Pattern][].
 
 ### 6.1 Editor(s)
 
-* This proposal is a result of the *Forum for the Future* and was proposed by Elisa Foltyn. 
-Editor of this text is Astrid Günther, <astrid.guenther@community.joomla.org> 
+Astrid Günther, <astrid.guenther@community.joomla.org> 
 
 
 ### 6.2 Sponsors
