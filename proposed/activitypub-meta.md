@@ -1,4 +1,4 @@
-# \<Subject> Meta Document
+ActivityPub Meta Document
 
 ## 1. Summary
 
@@ -15,6 +15,9 @@ Think of a social network as any piece of software that implements ActivityPub. 
 ## 3. Scope
 
 ### 3.1 Goals
+
+- Possibility to follow an author on a Joomla Website
+- Getting information, if there is a new article of that author in an ActivityPub enabled software (e.g. Mastodon)
 
 ### 3.2 Non-Goals
 
@@ -38,7 +41,7 @@ Think of a social network as any piece of software that implements ActivityPub. 
 
 ### 6.1 Editor(s)
 
-* Hagen Graf
+* Hagen Graf hagen.graf@community.joomla.org
 
 ### 6.2 Sponsors
 
