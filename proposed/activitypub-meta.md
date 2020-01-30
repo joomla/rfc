@@ -2,11 +2,15 @@
 
 ## 1. Summary
 
-_What is Subject about?_
+ActivityPub
+W3C Recommendation 23 January 2018
 
-This specification aims to ...
+The ActivityPub protocol is a decentralized social networking protocol based upon the ActivityStreams 2.0 data format. It provides a client to server API for creating, updating and deleting content, as well as a federated server to server API for delivering notifications and content.
 
 ## 2. Why Bother?
+
+If we implement the so-called ActivityPub protocol to enable Joomla Websites to talk to each other; that’s the basis of the “federation”. Federation is what you already know from e-mail, even if you may not know it by name: It’s the concept of servers hosting users that can talk to users from other servers. That protocol pins down on paper how exactly such inter-server communication would look like, using a vocabulary that can be applied for a variety of purposes.
+Think of a social network as any piece of software that implements ActivityPub. That software can be wildly different in how it looks and what it does! But the social graph–what we call the people and their connections–is the same.
 
 ## 3. Scope
 
@@ -34,7 +38,7 @@ This specification aims to ...
 
 ### 6.1 Editor(s)
 
-* Niels Braczek, <nbraczek@bsds.de>
+* Hagen Graf
 
 ### 6.2 Sponsors
 
@@ -51,7 +55,7 @@ This specification aims to ...
 
 ## 8. Relevant Links
 
-_**Note:** Order descending chronologically._
+https://www.w3.org/TR/activitypub/
 
 ## 9. Errata
 
