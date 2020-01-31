@@ -4,6 +4,8 @@ The idea behind this repository is to provide a central place for RfCs for new
 features for the Joomla! projects and Specifications (interfaces) for further 
 development.
 
+The index of existing RfCs, whether they are in Pre-Draft state or accepted, is found in [index.md](index.md). 
+
 ## Proposing a Joomla! Feature or a Joomla! Specification
 
 To propose a Feature / Specification:
