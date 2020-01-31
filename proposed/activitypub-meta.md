@@ -1,4 +1,4 @@
-ActivityPub Meta Document
+# ActivityPub Meta Document
 
 ## 1. Summary
 
@@ -41,7 +41,7 @@ Think of a social network as any piece of software that implements ActivityPub. 
 
 ### 6.1 Editor(s)
 
-* Hagen Graf hagen.graf@community.joomla.org
+* Hagen Graf <hagen.graf@community.joomla.org>
 
 ### 6.2 Sponsors
 
