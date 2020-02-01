@@ -20,10 +20,10 @@ compatible packages.
 Additionally, you can use Composer to manage extensions.  
 
 Composer has become an essential part of web development:
-- [Install TYPO3 via composer][https://docs.typo3.org/m/typo3/guide-installation/master/en-us/QuickInstall/Composer/Index.html)  
+- [Install TYPO3 via composer](https://docs.typo3.org/m/typo3/guide-installation/master/en-us/QuickInstall/Composer/Index.html)  
 - [Contao - Installing with Composer](https://docs.contao.org/books/manual/current/en/01-installation/installing-contao.html#installing-with-composer)
 - [Using Composer to Install Drupal](https://www.drupal.org/docs/develop/using-composer/using-composer-to-install-drupal-and-manage-dependencies)
-...
+- ...
 
 
 ## 2. Why Bother?
