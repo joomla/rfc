@@ -35,13 +35,17 @@ It can help you and all Joomlers improve how you
 - develop, 
 - share, 
 - make use of, 
-- host, 
 and 
 - deploy  
 
-your Joomla code and whole site stacks.
+your Joomla code and whole site stacks.  
 
 ## 3. Scope
+
+**Currently**, Composer is only used to maintain external libraries shipped together with the CMS.  
+Joomla is distributing the composer.json file 
+through [Github](https://github.com/joomla/joomla-cms) but not through 
+the [downloadable packages](https://downloads.joomla.org/). 
 
 ### 3.1 Goals
 
@@ -80,15 +84,62 @@ worrying about the distribution.
 
 ### 3.2 Non-Goals
 
+- **Use Composer on a Production Server** 
+ It may be that Composer is entirely safe on a production server, 
+but personally my thoughts are that having a program that can write files to 
+the server from remote servers would seem to open up a potential security risk, 
+and therefore it’s likely better to not have Composer on a production server.
+
 ## 4. Approaches
 
 ### 4.1 Approach 1
 
+We use Composer to install external libraries. 
+We can also use it to install Joomla extensions. 
+If we are creating an extension and installing these 
+we should take care to use proper version numbers for the libraries so composer 
+can handle conflicts for us during composer install or update.
+
+
 #### 4.1.1 Projects Using Approach 1
+
+https://www.joomlatools.com/developer/tools/composer
 
 ### 4.2 Approach 2
 
+In addition to installing the extensions, we can also install Joomla through Composer.
+
+For this we disconnect Joomla as a product from Joomla-Git repository and provide a 
+mechanism to create a composer-enabled Joomla installation.
+
+```
+{
+	"name": "vendor/my_joomla_website",
+	"description": "Testing to install Joomla via composer",
+	"type": "project",
+	"license": "GNU",
+	"authors": [
+		{
+			"name": "author",
+			"email": "info@author.de"
+		}
+	],
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/joomla/joomla-cms.git"
+		}
+	],
+	"require": {
+		"joomla/joomla-cms": "4.0.0-alpha12"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
+```
 #### 4.2.1 Projects Using Approach 2
+
+https://www.drupal.org/project/ideas/issues/2958021
 
 ### 4.3 Comparison of Approaches
 
@@ -100,7 +151,7 @@ worrying about the distribution.
 
 ### 6.1 Editor(s)
 
-* Niels Braczek, <nbraczek@bsds.de>
+* Astrid Günther
 
 ### 6.2 Sponsors
 
