@@ -45,7 +45,7 @@ your Joomla code and whole site stacks.
 
 ### 3.1 Goals
 
-- Dependency Management
+- **Dependency Management**  
 If you are working on a project with a framework, you will need 
 to update it. As they release new versions with  
 o bug fixes and  
