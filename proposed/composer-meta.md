@@ -23,7 +23,7 @@ Composer has become an essential part of web development:
 - [Install TYPO3 via composer](https://docs.typo3.org/m/typo3/guide-installation/master/en-us/QuickInstall/Composer/Index.html)  
 - [Contao - Installing with Composer](https://docs.contao.org/books/manual/current/en/01-installation/installing-contao.html#installing-with-composer)
 - [Using Composer to Install Drupal](https://www.drupal.org/docs/develop/using-composer/using-composer-to-install-drupal-and-manage-dependencies)
-- ...
+- ... Install Joomla via Composer is missing 
 
 
 ## 2. Why Bother?
@@ -43,7 +43,7 @@ your Joomla code and whole site stacks.
 ## 3. Scope
 
 **Currently**, Composer is only used to maintain external libraries shipped together with the CMS.  
-Joomla is distributing the composer.json file 
+Joomla is distributing the `composer.json` file 
 through [Github](https://github.com/joomla/joomla-cms) but not through 
 the [downloadable packages](https://downloads.joomla.org/). 
 
@@ -112,6 +112,8 @@ In addition to installing the extensions, we can also install Joomla through Com
 For this we disconnect Joomla as a product from Joomla-Git repository and provide a 
 mechanism to create a composer-enabled Joomla installation.
 
+The following `composer.json` file loads Joomla into the package.
+
 ```
 {
 	"name": "vendor/my_joomla_website",
@@ -137,11 +139,15 @@ mechanism to create a composer-enabled Joomla installation.
 	"prefer-stable": true
 }
 ```
+
 #### 4.2.1 Projects Using Approach 2
 
 https://www.drupal.org/project/ideas/issues/2958021
 
 ### 4.3 Comparison of Approaches
+
+Both approaches can exist side by side. They build on each other. 
+We should first decide which is more important and which should be started.
 
 ### 4.4 Chosen Approach
 
