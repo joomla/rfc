@@ -45,6 +45,34 @@ your Joomla code and whole site stacks.
 
 ### 3.1 Goals
 
+- Dependency Management
+If you are working on a new project with a framework, you will need 
+to update it. As they release new versions with bug fixes and new features, 
+you should keep the framework up to date for security, performance and other 
+reasons. However, it is tedious to manually download it every time, 
+replace the existing files, and retest things. 
+Working on legacy projects is something we all want to avoid, isn't it?
+- Project directory size
+The size of the project directory used to be very big. With Composer the 
+size reduces. We can get away without keeping the dependencies in 
+the project and avoid version mismatches at the same time 
+thanks to `composer.lock` file.
+- Autoloading
+As the project grows in size, so does the number of files we need to include 
+in each of the file. PHP autoloading came to the rescue but still it 
+was comparatively hard to setup and maintain as dependencies grow. 
+A powerful feature of Composer is Autoloading.
+- Lengthy Installation procedures
+- Platform Requirements
+The code of our  Joomla package may support only latest PHP versions 
+or depend on specific PHP extensions.    
+And we can inform Composer about this resulting in prevention 
+of package downloads on the systems that don't meet the requirements.
+- Maintaining a library/package
+Composer highly recommends [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and following that, 
+package maintainers can keep focus on actual development without 
+worrying about the distribution.
+
 ### 3.2 Non-Goals
 
 ## 4. Approaches
