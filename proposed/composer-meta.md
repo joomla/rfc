@@ -48,13 +48,12 @@ your Joomla code and whole site stacks.
 - Dependency Management
 If you are working on a project with a framework, you will need 
 to update it. As they release new versions with  
-bug fixes and  
-new features,  
+ bug fixes and  
+ new features,  
 you should keep the framework up to date for  
-security,  
-performance and  
-other reasons.  
-
+ security,  
+ performance and  
+ other reasons.  
 However, it is tedious to manually download it every time, 
 replace the existing files, and retest things. 
 Working on legacy projects is something we all want to avoid, isn't it?
