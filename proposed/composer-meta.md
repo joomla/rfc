@@ -28,6 +28,16 @@ Composer has become an essential part of web development:
 
 ## 2. Why Bother?
 
+In short:  
+It can help you and all Joomlers improve how you 
+- develop, 
+- share, 
+- make use of, 
+- host, 
+and 
+- deploy  
+your Joomla code and whole site stacks.
+
 ## 3. Scope
 
 ### 3.1 Goals
