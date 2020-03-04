@@ -129,7 +129,6 @@ The voting process is described in detail in a separate [Voting Document][rfc-vo
 _**Note:** Order descending chronologically._
 
 * [PHP FIG][]
-* [Ideas portal][ideas]
 * [Workflow Document][rfc-workflow]
 * [Voting Document][rfc-voting]
 
