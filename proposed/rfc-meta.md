@@ -44,8 +44,8 @@ As a single point of truth, all proposals are managed in this repository
 
 In the `template/` directory of the repository, templates for the proposals are 
 provided, so they will follow a certain structure. Having this structure allows 
-to build user interfaces for users who are not familiar with GitHub, f.x. on the 
-[Ideas portal][ideas].
+to build user interfaces for users who are not familiar with GitHub, f.x. on a 
+new version of the Ideas portal.
 
 To get started, the two first paragraphs are most important:
 * **1. Summary** to describe what the proposal is about, and
@@ -129,13 +129,11 @@ The voting process is described in detail in a separate [Voting Document][rfc-vo
 _**Note:** Order descending chronologically._
 
 * [PHP FIG][]
-* [Ideas portal][ideas]
 * [Workflow Document][rfc-workflow]
 * [Voting Document][rfc-voting]
 
 
 [PHP FIG]: http://www.php-fig.org/
-[ideas]: https://ideas.joomla.org
 [rfc-workflow]: rfc-workflow.md
 [rfc-voting]: rfc-voting.md
 
