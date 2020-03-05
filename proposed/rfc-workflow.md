@@ -15,22 +15,24 @@ Once those parties have determined to move forward, they must form a Working Gro
 A Working Group consists of, at minimum:
 
 * One Editor
-* One Team Leader from the Production Department who will act as Sponsor
-* At least three other individuals. These may include Team Leaders or Team Members
+* One members of Open Source Matters (Class 1, 2 or 3) who will act as Sponsor
+* At least three other individuals. These may include members of Open Source Matters
   as well as members of the general community.
 
 The proposal is not required to be fully developed at this point, although that is
-permitted. At minimum, it must include a statement of the problem to be solved and
+permitted. At minimum, it must include a statement of the problem to be solved
+("what" in section *1. Summary* and "why" in section *2. Why Bother*, see
+[Meta Document template](templates/spec-template-meta.md)) and
 basic information on the general approach to be taken. Further revision and
 expansion is expected during the Draft Phase.
 
-The Sponsor may then call for an Entrance Vote of the Production Department Team
-Leaders to enquire whether the Production Department Team Leaders are generally
+The Sponsor may then call for an Entrance Vote of all members of Open Source 
+Matters (Class 1, 2 and 3) to enquire whether the Joomla community is generally
 interested in publishing a Joomla Feature or publishing a Joomla Specification 
 for the proposed subject, even if they disagree with the details of the proposal.
 
 If the vote passes, the proposal officially enters Draft stage. The proposal
-receives a RfC number incremented from the highest numbered RfC
+receives an RfC number incremented from the highest numbered RfC
 which has passed the Entrance Vote, regardless of the status of that RfC.
 
 The Working Group may continue to work on the proposal during the complete voting
@@ -97,11 +99,11 @@ a minimum of four weeks and until
   **Specification RfCs**, ideally as examples in the proposal repository. The 
   responsibility for finding such trial implementations and presenting them to the 
   Production Department Team Leaders lies with the Working Group, and especially 
-  the Editor  and Sponsor. As not all specifications are PHP interfaces where the 
-  definition of  "implementation" is self-evident, the Sponsor should use good 
+  the Editor and Sponsor. As not all specifications are PHP interfaces where the 
+  definition of "implementation" is self-evident, the Sponsor should use good 
   faith judgement to  determine when that is the case. Any member of the Production 
-  Department Team  Leaders may object to a given trial implementation as irrelevant 
-  or insufficient  with due cause.
+  Department Team Leaders may object to a given trial implementation as irrelevant 
+  or insufficient with due cause.
 
 Once four weeks have passed and UI and help page or two viable trial implementations
 can be demonstrated, the Sponsor may call an Acceptance Vote. If the Acceptance

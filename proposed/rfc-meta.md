@@ -3,16 +3,23 @@
 
 ## 1. Summary
 
-For a sustainable success of the Joomla project, Features and Specifications need to be well-thought and generally accepted.
-At the time of this writing (Jan 2020), the organisation does not have a defined process to ensure this.
+For a sustainable success of the Joomla project, Features and Specifications need to be well-thought
+and generally accepted.
+At the time of this writing (Jan 2020), the organisation does not have a defined process to ensure
+this.
 
-This proposal aims to define a way to enable everybody in the community to suggest features or specifications, and to define, how the community / project decides on the proposal.
+This proposal aims to define a way to enable everybody in the community to suggest features or
+specifications, and to define, how the community / project decides on the proposal.
 
 ## 2. Why Bother?
 
-During the *Forum for the Future* event in January 2020, there was an overwhelming consensus about the need to act more professional.
+During the *Forum for the Future* event in January 2020, there was an overwhelming consensus about
+the need to act more professional.
 
-The project is encountering long-standing showstoppers for the release of Joomla 4.0, which could have been avoided by a *think-first-then-implement* approach. An RfC (*Request for Comments*) process is an appropriate tool to address this kind of problems, and will additionally increase the (not only the perceived) professionalism of the project. 
+The project is encountering long-standing showstoppers for the release of Joomla 4.0, which could
+have been avoided by a *think-first-then-implement* approach. An RfC (*Request for Comments*)
+process is an appropriate tool to address this kind of problems, and will additionally increase the 
+(not only the perceived) professionalism of the project. 
 
 ## 3. Scope
 
@@ -40,12 +47,13 @@ RfC document structure were created from copies of the FIG original.
 
 As a single point of truth, all proposals are managed in this repository 
 (currently *joomla-x/joomla-standards*, which should be moved to a pinned repository 
-*joomla/joomla-standards* or *joomla/rfc*).
+*joomla/joomla-standards* or *joomla/rfc*, once this RfC is accepted).
 
 In the `template/` directory of the repository, templates for the proposals are 
 provided, so they will follow a certain structure. Having this structure allows 
 to build user interfaces for users who are not familiar with GitHub, f.x. on a 
-new version of the Ideas portal.
+new version of the Ideas portal. Other / additional templates may be provided depending
+on actual needs.
 
 To get started, the two first paragraphs are most important:
 * **1. Summary** to describe what the proposal is about, and
