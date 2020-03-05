@@ -15,7 +15,7 @@ Once those parties have determined to move forward, they must form a Working Gro
 A Working Group consists of, at minimum:
 
 * One Editor
-* One members of Open Source Matters (Class 1, 2 or 3) who will act as Sponsor
+* One member of Open Source Matters (Class 1, 2 or 3) who will act as Sponsor
 * At least three other individuals. These may include members of Open Source Matters
   as well as members of the general community.
 
