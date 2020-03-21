@@ -1,0 +1,86 @@
+@startuml
+skinparam monochrome true
+skinparam state {
+    BackgroundColor White
+}
+
+[*] --> PreDraft
+
+state PreDraft as "**Pre-Draft**" {
+}
+
+state Draft as "**Draft**" {
+}
+
+state Review as "**Review**" {
+}
+
+state Accepted as "**Accepted**" {
+    state "**Under Development**" as Development
+    state Implemented as "**Implemented**" {
+    }
+
+    Development: **Actions:** Implement feature
+    Development: **Timeline:** unlimited
+
+    Implemented: **Actions:** Maintain feature
+    Implemented: **Timeline:** unlimited
+
+    note "For Feature RfCs only" as N1
+    [*] --> Development
+    Development --> Implemented: Developed, tested and merged\nfor next available\nmajor or minor release
+    Implemented --> [*]
+}
+
+state Deprecated as "**Deprecated**" {
+}
+
+state Abandoned as "**Abandoned**" {
+}
+
+state Rejected as "**Rejected**" {
+}
+
+state O <<join>>
+
+
+PreDraft --> Draft: **Entrance Vote**\nClass 1,2 and 3 Members\n**passes**
+PreDraft --> Rejected: **Entrance Vote**\nClass 1,2 and 3 Members\n**fails**
+
+Draft --> Review: **Readiness Vote**\nWorking Group Members\n**passes**
+
+Review --> Draft: Proposal needs\nsubstantial changes
+Review --> Accepted: **Acceptance Vote**\nProduction Department Leaders\n**passes**
+
+Accepted --> Deprecated: **Deprecation Vote**\nProduction Department Leaders\n**passes**
+
+
+O --> Abandoned: After\n60 days without\nEditor or Sponsor\nor 6 month without activity\nProduction Department Coordinator\ncan start\n\n**Abandonment Vote**\nClass 1,2 and 3 Members\n**passes**
+
+PreDraft -> O
+Draft -left-> O
+Review -left-> O
+
+Abandoned -up-> Draft: **Entrance Vote**\nClass 1,2 and 3 Members\n**passes**\n(only once)
+
+Abandoned --> [*]: Abandoned\nfor the second time
+Deprecated --> [*]
+Rejected --> [*]
+
+PreDraft: **Actions:** Define the "What" and the "Why"
+PreDraft: **Timeline:** unlimited
+
+Draft: **Actions:** Discuss and polish the proposal
+Draft: **Timeline:** unlimited
+
+Review: **Actions:** Evaluate practicality (trial implementations)
+Review: **Timeline:** minimum 4 weeks (unless moved to Draft)
+
+Accepted: **Actions:**
+Accepted: **Timeline:** unlimited
+
+Abandoned: Not actively worked upon
+Deprecated: No longer considered relevant
+Rejected: Not considered relevant
+
+@enduml

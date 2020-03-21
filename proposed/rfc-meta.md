@@ -3,21 +3,21 @@
 
 ## 1. Summary
 
-For a sustainable success of the Joomla project, Features and Specifications need to be well-thought
+For a sustainable success of the Joomla project, **Processes**, **Features** and **Specifications** need to be well-thought
 and generally accepted.
 At the time of this writing (Jan 2020), the organisation does not have a defined process to ensure
 this.
 
-This proposal aims to define a way to enable everybody in the community to suggest features or
+This proposal aims to define a way to enable everybody in the community to suggest processes, features or
 specifications, and to define, how the community / project decides on the proposal.
 
 ## 2. Why Bother?
 
-During the *Forum for the Future* event in January 2020, there was an overwhelming consensus about
+During the **Forum for the Future** event in January 2020, there was an overwhelming consensus about
 the need to act more professional.
 
 The project is encountering long-standing showstoppers for the release of Joomla 4.0, which could
-have been avoided by a *think-first-then-implement* approach. An RfC (*Request for Comments*)
+have been avoided by a **think-first-then-implement** approach. An RfC (*Request for Comments*)
 process is an appropriate tool to address this kind of problems, and will additionally increase the 
 (not only the perceived) professionalism of the project. 
 
@@ -27,7 +27,7 @@ process is an appropriate tool to address this kind of problems, and will additi
 
 The goals for this proposal are to
 
-* define how to propose specifications, features or procedures
+* define how to propose specifications, features or processes
 * define the possible states of a proposal
 * define the workflow through those states
 * define the decision process
@@ -69,12 +69,18 @@ that paragraph.
 * #### Pre-Draft
 
     The goal of the Pre-Draft stage is to determine whether a majority of Joomla is
-    interested in adding a Joomla **Feature** or publishing a Joomla **Specification**
-    for a proposed concept.
+    interested in adding a Joomla **Feature**, publishing a Joomla **Specification**
+    for a proposed concept or implementing a **Process** (like this RfC).
+    For **Processes**, the RfC must state, if it purely technical, so the Acceptance vote
+    is restricted to the Production Department, or not, in which case the Acceptance vote
+    is conducted in all Departments.
 
 * #### Draft
 
-    The goal of the Draft stage is to discuss and polish a **Feature / Specification** 
+    The proposal (the "what") is accepted by the community and thus expresses the
+    community's will. Moving the proposal to the Accepted state is now mandatory duty
+    for the Leadership.
+    The goal of the Draft stage is to discuss and polish a **Feature**, **Specification** or **Process** 
     proposal up to the point that it can be considered for review.
     
 * #### Review
@@ -84,13 +90,13 @@ that paragraph.
     
 * #### Accepted
       
-    If the Acceptance Vote passes, then the proposal officially becomes an **Accepted
-    Feature / Specification**.
+    The proposal (the "how") is accepted by experts. If the Acceptance Vote passes, then the proposal officially becomes an **Accepted
+    Feature / Specification / Process**.
 
 * #### Deprecated
 
-    A **Deprecated Specification** is one that has been approved, but is no longer 
-    considered relevant or recommended. Typically this is due to the Specification 
+    A **Deprecated Specification / Feature / Process** is one that has been accepted, but is no longer 
+    considered relevant or recommended. Typically this is due to the Specification / Feature / Process 
     being superseded by a new version, but that is not required.
 
 * #### Implemented
@@ -100,16 +106,28 @@ that paragraph.
 
 * #### Abandoned
 
-    An **Abandoned Feature / Specification** is one that is not actively being worked 
-    upon. 
+    An **Abandoned Feature / Specification / Process** is one that is neither accepted nor actively being worked upon. 
 
 ### 4.3 Workflow through the States
 
 The workflow is described in detail in a separate [Workflow Document][rfc-workflow].
-
-### 4.4 Decision Process
-
 The voting process is described in detail in a separate [Voting Document][rfc-voting].
+
+In short:
+- For **Entrance**, **Deprecation** and **Abandonment** all members of Open SourceMatters (Class 1, 2 or 3) can vote. The reason is that Entrance votes
+  reflect the will of the community and should only be revertible (moved to
+  Deprecation or Abandoned) by the community itself.
+  
+- For **Acceptance** all Team Leaders in the Production Department and the Production Department Coordinator can vote for **Features**, **Specifications** and purely technical **Processes**. The reason is that these items require
+  technical expertise and only have impact on Production.
+  All Team Leaders in all Departments and their Department Coordinator
+  may vote on Acceptance measures for **Processes** that are not purely technical.
+
+- For **Readiness** the Working Group conducts an internal vote.
+
+This diagram gives an overview of the states and the transitions:
+
+![Workflow](assets/rfc_workflow.svg)
 
 ## 5. Design Decisions
 

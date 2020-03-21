@@ -3,8 +3,8 @@
 ## Pre-Draft
 
 The goal of the Pre-Draft stage is to determine whether a majority of Joomla is
-interested in adding a Joomla **Feature** or publishing a Joomla **Specification**
-for a proposed concept.
+interested in adding a Joomla **Feature**, publishing a Joomla **Specification**
+for a proposed concept or implementing a **Process**.
 
 Interested parties may discuss a possible proposal, including possible
 implementations, by whatever means they feel is appropriate. That includes informal
@@ -28,7 +28,8 @@ expansion is expected during the Draft Phase.
 
 The Sponsor may then call for an Entrance Vote of all members of Open Source 
 Matters (Class 1, 2 and 3) to enquire whether the Joomla community is generally
-interested in publishing a Joomla Feature or publishing a Joomla Specification 
+interested in publishing a Joomla Feature, publishing a Joomla Specification or
+implement a Process 
 for the proposed subject, even if they disagree with the details of the proposal.
 
 If the vote passes, the proposal officially enters Draft stage. The proposal
@@ -40,14 +41,21 @@ period.
 
 ## Draft
 
-The goal of the Draft stage is to discuss and polish a **Feature / Specification** 
+The proposal (the "what") is accepted by the community and thus expresses the
+community's demand. Therefor, section *1. Summary* and section *2. Why Bother* MAY NOT
+be altered after a successful Entrance vote.
+Joomla's Leadership MUST take all due measures to move the proposal to the Accepted state.
+
+The goal of the Draft stage is to discuss and polish a **Feature / Specification / Process** 
 proposal up to the point that it can be considered for review by the Production 
 Department Team Leaders.
 
-In Draft stage, members of the Working Group may make any changes they see fit via
+In Draft stage, members of the Working Group and other contributors 
+MAY make any changes they see fit via
 pull requests, comments on GitHub, Mailing List threads, IRC and similar tools.
 Change here is not limited by any strict rules, and fundamental rewrites are
-possible if supported by the Editor. Alternative approaches may be proposed and
+possible if supported by the Editor, except section *1. Summary* and section *2. Why Bother*. 
+Alternative approaches may be proposed and
 discussed at any time. If the Editor and Sponsor are convinced that an alternative
 proposal is superior to the original proposal, then the alternative may replace the
 original. Working Group members are expected to remain engaged throughout the Draft
@@ -112,7 +120,7 @@ Vote fails, the specification may remain in Review.
 ## Accepted
 
 If the Acceptance Vote passes, then the proposal officially becomes an **Accepted
-Feature / Specification**. At this time, the Working Group is automatically 
+Feature / Specification / Process**. At this time, the Working Group is automatically 
 dissolved,  however the Editor's input (or a nominated individual communicated to 
 the Production Department Coordinator) may be called upon in the future should 
 typos, changes or Errata on the specification be raised.
@@ -122,12 +130,13 @@ Department.
 
 ## Deprecated
 
-A **Deprecated Specification** is one that has been approved, but is no longer 
-considered relevant or recommended. Typically this is due to the Specification 
+A **Deprecated Specification / Feature / Process** is one that has been approved,
+but is no longer 
+considered relevant or recommended. Typically this is due to the Specification / Feature / Process 
 being superseded by a new version, but that is not required.
 
-A Specification may be Deprecated explicitly as part of the Acceptance Vote for 
-another Specification. Alternatively, it may be marked Deprecated by a Deprecation 
+A Specification / Feature / Process may be Deprecated explicitly as part of the Acceptance Vote for 
+another Specification / Feature / Process. Alternatively, it may be marked Deprecated by a Deprecation 
 Vote.
 
 ## Implemented
@@ -137,32 +146,28 @@ the next available major or minor release.
 
 ## Abandoned
 
-An **Abandoned Feature / Specification** is one that is not actively being worked 
-upon. A Feature / Specification can be marked as Abandoned by the Production 
+An **Abandoned Feature / Specification / Process** is one that is not actively being worked 
+upon. A Feature / Specification / Process can be forwarded to an Abandonment vote by the Production 
 Department Coordinator when it is without an Editor for 60 days or a Sponsor for
-60 days. After a period of 6 months without significant activity in a Working 
-Group, the Production Department Coordinator may also change a Feature /
-Specification to be "Abandoned". A Feature / Specification can also be triggered to 
-move to "Abandoned" upon an Abandonment vote of the Production Department Team 
-Leaders which may be requested by the Working Group by petitioning a Production 
-Department Team Leader or the Production Department Coordinator.
+60 days, or after a period of 6 months without significant activity in a Working 
+Group. An Abandonment vote is up to the members of Open Source Matters (Class 1, 2 or 3).
 
 At this time the Working Group is automatically dissolved.
 
-Once a Feature / Specification is in "Abandoned" stage it may only once again be 
-moved to Draft after a fresh Entrance vote by the Production Department Team Leaders 
+Once a Feature / Specification / Process is in "Abandoned" stage it may only once again be 
+moved to Draft after a fresh Entrance vote by the members of Open Source Matters (Class 1, 2 or 3) 
 following the same procedure as if it was a pre-draft, except it may retain its 
-previously assigned number. If the aims of the Feature / Specification differ from 
+previously assigned number. If the aims of the Feature / Specification / Process differ from 
 the original entrance vote, it is up to the discretion of the Production Department 
-Team Leaders whether or not it should be considered a fresh Feature / Specification 
-or a restart of activity on the Abandoned Feature / Specification.
+Team Leaders whether or not it should be considered a fresh Feature / Specification / Process 
+or a restart of activity on the Abandoned Feature / Specification / Process.
 
 ## Project Referendum
 
-At any time the Editor of a Feature / Specification in Draft or Review Phase may 
+At any time the Editor of a Feature / Specification / Process in Draft or Review Phase may 
 call for a non-binding Referendum of Production Department Team Leaders on the 
-current state of a Feature / Specification.  Such a Referendum may be called 
-multiple times if appropriate as the Feature / Specification evolves, or never, at 
+current state of a Feature / Specification / Process.  Such a Referendum may be called 
+multiple times if appropriate as the Feature / Specification / Process evolves, or never, at 
 the Editor's discretion. The Production Department Team Leaders may also require 
 such a Referendum as a condition of an Acceptance Vote if appropriate.  Referendum 
 results are non-binding but the Working Group and Production Department Team 
