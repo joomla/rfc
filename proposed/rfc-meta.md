@@ -147,6 +147,11 @@ This diagram gives an overview of the states and the transitions:
 
 ## 5. Design Decisions
 
+* The RfC repository will be moved to `joomla/rfc`.
+* The Feature Request template on GitHub will be modified to suit the process.
+  Some automation may be added to it later. Also, a form may be provided for
+  non-GitHub users (simplified Feature Request, maybe revival of the Ideas Portal)
+
 ## 6. People
 
 ### 6.1 Editor(s)
