@@ -26,11 +26,17 @@ permitted. At minimum, it must include a statement of the problem to be solved
 basic information on the general approach to be taken. Further revision and
 expansion is expected during the Draft Phase.
 
+For **Features** and **Specifications**, Production Department Team Leaders and the
+Production Department Coordinator may reject a proposal, if it does not match
+the vision and the mission of the Joomla project, or if its implementation would
+cause unmanageable maintenance effort.
+
 The Sponsor may then call for an Entrance Vote of all members of Open Source 
 Matters (Class 1, 2 and 3) to enquire whether the Joomla community is generally
 interested in publishing a Joomla Feature, publishing a Joomla Specification or
-implement a Process 
-for the proposed subject, even if they disagree with the details of the proposal.
+implement a Process for the proposed subject, even if they disagree with the
+details of the proposal, i.e., the Entrance Vote is based on the first two sections
+(*1. Summary* and *2. Why Bother*) only.
 
 If the vote passes, the proposal officially enters Draft stage. The proposal
 receives an RfC number incremented from the highest numbered RfC

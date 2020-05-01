@@ -45,12 +45,12 @@ state O <<join>>
 
 
 PreDraft --> Draft: **Entrance Vote**\nClass 1,2 and 3 Members\n**passes**
-PreDraft --> Rejected: **Entrance Vote**\nClass 1,2 and 3 Members\n**fails**
+PreDraft --> Rejected: **Rejection Vote**\nProduct Department Leaders\n(Features/Specifications only)\n**passes**\n\nor\n\n**Entrance Vote**\nClass 1,2 and 3 Members\n**fails**
 
 Draft --> Review: **Readiness Vote**\nWorking Group Members\n**passes**
 
 Review --> Draft: Proposal needs\nsubstantial changes
-Review --> Accepted: **Acceptance Vote**\nProduction Department Leaders\n**passes**
+Review --> Accepted: **Acceptance Vote**\nProduction Department Leaders\nor\nClass 1 and 2 members\n(depending on scope)\n**passes**
 
 Accepted --> Deprecated: **Deprecation Vote**\nProduction Department Leaders\n**passes**
 

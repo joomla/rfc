@@ -15,12 +15,27 @@
 4. The measure passes if a simple majority of the votes cast are “in favor”, i.e.,
    tne number of "in favor" votes is greater than the number of "against" votes. The
    measure does not pass otherwise.
-5. The RfC votes are not secret. Names and votes will be published as an appendix to the RfC,
-   independent from the outcome of the vote.
+5. The RfC votes are not secret. Names and votes will be published in the Meta
+   document of the RfC, independent from the outcome of the vote.
 
 _N.B.: “Abstain” votes are counted only for quorum, and are not counted when calculating majority._
 
-## 2. Entrance Vote
+## 2. Rejection Vote
+
+1. Production Department Team Leaders and the Production Department Coordinator may
+   vote on Rejection measures for **Features** and **Specifications**.
+4. The Rejection vote is conducted in the Production Department lead by the
+   Production Department Coordinator.
+   There are no formal requirements beside the quorum and the majority. 
+6. Half or more of the voting members must vote for the vote to be valid.
+7. The measure passes if a simple majority of the votes cast are “in favor” (i.e.,
+   the proposal is rejected).
+   The measure does not pass otherwise (i.e., the proposal passes on to Entrance
+   Vote).
+8. Responsibility for vote tallying is shared between the Production Department Coordinator
+   and the Sponsor of the RfC, both of whom should confirm the result.
+
+## 3. Entrance Vote
 
 2. All members of Open Source Matters (Class 1, 2 or 3) may vote on Entrance
    measures.
@@ -34,7 +49,7 @@ _N.B.: “Abstain” votes are counted only for quorum, and are not counted when
 8. Responsibility for vote tallying is shared between the member who starts a vote
    and the sponsors of the measure, both of whom should confirm the result.
 
-## Readiness Vote
+## 4. Readiness Vote
 
 2. All members of the Working Group for that specific RfC may vote on Readiness
    measures.
@@ -46,7 +61,7 @@ _N.B.: “Abstain” votes are counted only for quorum, and are not counted when
 8. Responsibility for vote tallying is shared between the Editor
    and the Sponsor of the RfC, both of whom should confirm the result.
 
-## Acceptance Vote
+## 5. Acceptance Vote
 
 2. Only Team Leaders in the Production Department and the Production Department Coordinator
    may vote on Acceptance measures for **Features**, **Specifications** and purely technical
@@ -62,7 +77,7 @@ _N.B.: “Abstain” votes are counted only for quorum, and are not counted when
 8. Responsibility for vote tallying is shared between the member who starts a vote
    and the sponsors of the measure, both of whom should confirm the result.
 
-## Deprecation Vote
+## 6. Deprecation Vote
 
 2. All members of Open Source Matters (Class 1, 2 or 3) may vote on Deprecation
    measures.
@@ -76,7 +91,7 @@ _N.B.: “Abstain” votes are counted only for quorum, and are not counted when
 8. Responsibility for vote tallying is shared between the member who starts a vote
    and the sponsors of the measure, both of whom should confirm the result.
 
-## Abandonment Vote
+## 7. Abandonment Vote
 
 2. All members of Open Source Matters (Class 1, 2 or 3) may vote on Abandonment
    measures.
