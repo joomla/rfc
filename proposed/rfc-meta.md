@@ -21,6 +21,22 @@ have been avoided by a **think-first-then-implement** approach. An RfC (*Request
 process is an appropriate tool to address this kind of problems, and will additionally increase the 
 (not only the perceived) professionalism of the project. 
 
+The main advantages of having an RfC procedure are
+
+* **reduced number of issues**, because feature requests will be handled in the 
+  RfC repository
+* **less work for volunteers**, because they don't write code for the trash bin, which
+  happens too often with the current approach ("show code, then we decide")
+* **less useless discussion** about things already decided on, because the RfC process
+  documents the decisions (why we do it this way, and also why we don't do it the other
+  way)
+* **open for non-developers**, because only the first two
+  sections of the meta document (*Summary* and *Why Bother*) are needed to start the
+  process
+* **less maintenance**, because the RfC procedure leads to better maintainable code
+* **improved communication**, because the process involves other departments
+* **improved quality**, because the process ensures architectural suitable solutions
+
 ## 3. Scope
 
 ### 3.1 Goals
