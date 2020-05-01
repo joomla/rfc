@@ -143,10 +143,12 @@ This diagram gives an overview of the states and the transitions:
 
 ### 6.3 Contributors
 
-* N/A
+* Wilco Alsemgeest <wilco.alsemgeest@community.joomla.org>
+* Anibal Sanchez <anibal.sanchez@extensions.joomla.org>
 
 ## 7. Votes
 
+* **Board Motion:** _(not yet taken)_
 * **Entrance Vote:** _(not yet taken)_
 * **Acceptance Vote:** _(not yet taken)_
 
