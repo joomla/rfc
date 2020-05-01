@@ -16,8 +16,8 @@ A Working Group consists of, at minimum:
 
 * One Editor
 * One member of Open Source Matters (Class 1, 2 or 3) who will act as Sponsor
-* At least three other individuals. These may include members of Open Source Matters
-  as well as members of the general community.
+* At least one other individual. This may be a member of Open Source Matters
+  as well as a member of the general community.
 
 The proposal is not required to be fully developed at this point, although that is
 permitted. At minimum, it must include a statement of the problem to be solved
