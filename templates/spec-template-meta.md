@@ -34,7 +34,7 @@ This specification aims to ...
 
 ### 6.1 Editor(s)
 
-* Niels Braczek, <nbraczek@bsds.de>
+* \<full name> <\<email address>>
 
 ### 6.2 Sponsors
 

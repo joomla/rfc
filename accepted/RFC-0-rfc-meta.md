@@ -1,5 +1,5 @@
 # Proposal Process Meta Document
-*Pre-Draft*
+*Accepted*
 
 ## 1. Summary
 
@@ -143,7 +143,7 @@ In short:
 
 This diagram gives an overview of the states and the transitions:
 
-![Workflow](assets/rfc_workflow.svg)
+![Workflow](RFC-0-assets/rfc_workflow.svg)
 
 ## 5. Design Decisions
 
@@ -156,11 +156,11 @@ This diagram gives an overview of the states and the transitions:
 
 ### 6.1 Editor(s)
 
-* Niels Braczek, <niels.braczek@community.joomla.org>
+* Niels Braczek <niels.braczek@community.joomla.org>
 
 ### 6.2 Sponsors
 
-* N/A
+* Marco Dings <marco.dings@community.joomla.org>
 
 ### 6.3 Contributors
 
@@ -169,9 +169,7 @@ This diagram gives an overview of the states and the transitions:
 
 ## 7. Votes
 
-* **Board Motion:** _(not yet taken)_
-* **Entrance Vote:** _(not yet taken)_
-* **Acceptance Vote:** _(not yet taken)_
+* **Acceptance Vote:** Passed 2020-12-03.
 
 ## 8. Relevant Links
 
@@ -183,8 +181,8 @@ _**Note:** Order descending chronologically._
 
 
 [PHP FIG]: http://www.php-fig.org/
-[rfc-workflow]: rfc-workflow.md
-[rfc-voting]: rfc-voting.md
+[rfc-workflow]: RFC-0-rfc-workflow.md
+[rfc-voting]: RFC-0-rfc-voting.md
 
 ## 9. Errata
 
