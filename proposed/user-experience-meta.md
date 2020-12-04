@@ -102,7 +102,7 @@ interaction with the system.
 
 ### 6.3 Contributors
 
-* N/A
+* Christiane Maier-Stadtherr <christiane.maier-stadtherr@community.joomla.org>
 
 ## 7. Votes
 
