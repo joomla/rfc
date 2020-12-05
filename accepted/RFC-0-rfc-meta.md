@@ -169,7 +169,7 @@ This diagram gives an overview of the states and the transitions:
 
 ## 7. Votes
 
-* **Acceptance Vote:** Passed 2020-12-03.
+* **Acceptance Vote:** PROD2020/032 Passed 2020-12-03.
 
 ## 8. Relevant Links
 
