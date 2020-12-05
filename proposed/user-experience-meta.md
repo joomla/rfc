@@ -103,6 +103,7 @@ interaction with the system.
 ### 6.3 Contributors
 
 * Christiane Maier-Stadtherr <christiane.maier-stadtherr@community.joomla.org>
+* Florian Bauer <florian.bauer@webfeuer.wien>
 
 ## 7. Votes
 
