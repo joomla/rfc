@@ -22,7 +22,7 @@ A Working Group consists of, at minimum:
 The proposal is not required to be fully developed at this point, although that is
 permitted. At minimum, it must include a statement of the problem to be solved
 ("what" in section *1. Summary* and "why" in section *2. Why Bother*, see
-[Meta Document template](templates/spec-template-meta.md)) and
+[Meta Document template](../templates/spec-template-meta.md)) and
 basic information on the general approach to be taken. Further revision and
 expansion is expected during the Draft Phase.
 
