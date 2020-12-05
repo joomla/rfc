@@ -17,7 +17,7 @@ The sponsor is responsible for managing the review stage and votes.
 
 | Num | Title                          | Editor                  | Sponsor           |
 |:---:|--------------------------------|-------------------------|-------------------|
-| 0 | RfC | Niels Braczek <niels.braczek@community.joomla.org> | Marco Dings <marco.dings@community.joomla.org> |
+| 0 | [RfC Procedure][rfc-procedure] | Niels Braczek <niels.braczek@community.joomla.org> | Marco Dings <marco.dings@community.joomla.org> |
 
 ### Review
 
@@ -55,7 +55,7 @@ The sponsor is responsible for managing the review stage and votes.
 
 | Status | Num | Title                          | Editor                  | Sponsor           |
 |--------|:---:|--------------------------------|-------------------------|-------------------|
-| A | 0 | RfC | Niels Braczek <niels.braczek@community.joomla.org> | Marco Dings <marco.dings@community.joomla.org> |
+| A | 0 | [RfC Procedure][rfc-procedure] | Niels Braczek <niels.braczek@community.joomla.org> | Marco Dings <marco.dings@community.joomla.org> |
 
 _**Legend:** A = Accepted | D = Draft | P = Pre-Draft | R = Review | X = Deprecated_
 
@@ -67,3 +67,4 @@ _**Legend:** A = Accepted | D = Draft | P = Pre-Draft | R = Review | X = Depreca
 [simplify-admin]: https://github.com/joomla-x/joomla-standards/pull/6
 [simplify-admin2]: https://github.com/joomla-x/joomla-standards/pull/7
 [composer]: https://github.com/joomla-x/joomla-standards/pull/8
+[rfc-procedure]: https://github.com/joomla-x/joomla-standards/blob/master/accepted/RFC-0-rfc-meta.md
