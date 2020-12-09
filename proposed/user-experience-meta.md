@@ -104,6 +104,8 @@ interaction with the system.
 
 * Christiane Maier-Stadtherr <christiane.maier-stadtherr@community.joomla.org>
 * Florian Bauer <florian.bauer@webfeuer.wien>
+* Sigrid Gramlinger <sigrid.gramlinger@community.joomla.org>
+* Guido De Gobbis <degobbis@googlemail.com>
 
 ## 7. Votes
 
