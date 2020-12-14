@@ -12,18 +12,22 @@ Joomla projects.
 
 ## 2. Why Bother?
 
-Experience with training users to work with their Joomla website shows that User Experience is something most new users 
-struggle with. We often get feedback that some click paths are not intuitive or that there are too many options that are
-unclear to the inexperienced user.
+When training users to work with their Joomla website, we often see new users struggling with the user interface. We get
+feedback that some click paths are not intuitive or that there are too many options and options that are difficult to
+understand.
 
 Over the years there have been a number of teams, groups and individuals in the Joomla project who have tried to improve
 the User Experience but failed to reach a long term agreement on the level of User Experience that Joomla wants to
 implement. They often got lost in details about the size, position and colour of buttons because of a lack of
 appropriate signposts.
 
-A specification of the interaction principles to be considered and the metrics with which they can be quantified helps
-stakeholders to focus on what is essential in terms of User Experience and to make measurable and thus real progress in
-User Experience.
+A specification of
+
+* the interaction principles to be considered and
+* the metrics with which they can be quantified
+
+helps stakeholders to focus on what is essential. This enables the  project to make a measurable and thus real progress
+in terms of User Experience.
 
 This specification supports [the mission and the key value "Usability"][Mission, Vision & Values] of the Joomla project.
 
