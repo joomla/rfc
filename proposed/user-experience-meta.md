@@ -3,92 +3,53 @@ _Pre-Draft_
 
 ## 1. Summary
 
-> User experience (UX or UE) is a person's emotions and attitudes about using a particular product, system or service. It
-includes the practical, experiential, affective, meaningful, and valuable aspects of human–computer interaction and
-product ownership. Additionally, it includes a person's perceptions of system aspects such as utility, ease of use, and
-efficiency. User experience may be subjective in nature to the degree that it is about individual perception and thought
-with respect to a product or system. User experience varies dynamically, constantly modifying over time due to changing
-usage circumstances. Simplified, user experience is about how a user interacts with, and experiences, a product.
-[Source: Wikipedia](https://en.wikipedia.org/wiki/User_experience)
+This specification provides common guidelines for people involved in Joomla User Experience (UX) decisions.
 
-Standards are not something that inspires, not even UX standards. And yet they can be very useful for two reasons:
+It introduces principles and metrics to enable discussion about and measurement of User Experience.
 
-* They provide a compact overview.
-* They help to convince.
-
-Both tasks are now better fulfilled by one of the most important standards for UX: **DIN EN ISO 9241-110** was updated
-in October 2020. The most important change, for those who already know it: Individualisation has finally been
-moved to the back in the right place. There is also a new interaction principle, user engagement.
-
-This specification aims to provide people involved in UX decisions with a common set of principles and vocabulary.
+This guidance is intended to be generic and therefore not defining specific workflows or designs for the CMS or other
+Joomla projects.
 
 ## 2. Why Bother?
 
-While developers have SOLID (five design principles intended to make software designs more understandable, flexible, and
-maintainable), GRASP (guidelines for assigning responsibility to classes and objects in object-oriented design)  and
-others to guide them in their work, the UX area seems to get lost in details about size, position and colour of buttons
-due to lack of corresponding sign-poles.
+Experience with training users to work with their Joomla website shows that User Experience is something most new users 
+struggle with. We often get feedback that some click paths are not intuitive or that there are too many options that are
+unclear to the inexperienced user.
 
-This set of interaction principles, defined by an international standard, will help people in the UX area to make and 
-test design decisions against universal high level requirements and thus continuously improve Joomla's user experience.
+Over the years there have been a number of teams, groups and individuals in the Joomla project who have tried to improve
+the User Experience but failed to reach a long term agreement on the level of User Experience that Joomla wants to
+implement. They often got lost in details about the size, position and colour of buttons because of a lack of
+appropriate signposts.
+
+A specification of the interaction principles to be considered and the metrics with which they can be quantified helps
+stakeholders to focus on what is essential in terms of User Experience and to make measurable and thus real progress in
+User Experience.
+
+This specification supports [the mission and the key value "Usability"][Mission, Vision & Values] of the Joomla project.
+
+[Mission, Vision & Values]: https://www.joomla.org/about-joomla/the-project/mission-vision-and-values.html
 
 ## 3. Scope
 
 ### 3.1 Goals
 
-The goal of this RfC is to 
-* provide guidance to improve UX for Joomla
-* provide a reference for discussions (e.g., _"This violates the Task Adequacy, because ..."_, _"In order to increase
-  Self-Descriptiveness, we could ..."_)
+The goal of this specification is to provide 
+* guidance to improve User Experience for Joomla
+* a common vocabulary for discussions
+* a definition of interaction principles
+* a (non-final) list of User Experience metrics
 
 ### 3.2 Non-Goals
 
-This RfC will not define specific workflows or designs for the CMS or other Joomla projects.
+This specification will not define specific workflows or designs for the CMS or other Joomla projects.
 
 ## 4. Approach
 
 ### 4.1 DIN EN ISO 9241-110 - Ergonomics of human-system interaction - Part 110: Interaction principles
 
-This updated standard is part of the DIN EN ISO 9241 series of standards, which defines, among other things, how
-keyboards, monitors and displays and the working environment should look. It also specifies which properties
-applications, software and websites should have. The **seven interaction principles** are an important basis for all this.
-These used to be called "principles of dialogue design". These are the characteristics that all good applications should
-have (the standard speaks of "interactive systems").
-These seven principles of interaction are:
-
-#### 1. Task Adequacy:
-
-The system supports the user in performing their tasks. The focus is on these tasks rather than on the technical
-requirements/processes of the system.
-
-#### 2. Self-Descriptiveness:
-
-The system can be used as much as possible without the user being instructed or having to look up anything.
-
-#### 3. Conformity to Expectations:
-
-The system works for the user in the same way as they knows it from other applications.
-
-#### 4. Learnability:
-
-The system supports the user to learn how to use it independently.
-
-#### 5. Controllability:
-
-The user has the system under control at all times and can adapt it to their own preferences and needs.
-
-#### 6. Robustness against User Errors:
-
-The system helps to avoid errors, tolerates them and helps to correct them if they occur nevertheless.
-
-#### 7. User Engagement:
-
-The system presents functions and information in an inviting and motivating way. This promotes the user's ongoing
-interaction with the system.
+### 4.2 Web Content Accessibility Guidelines (WCAG)
 
 ## 5. Design Decisions
-
-@todo
 
 ## 6. People
 
@@ -116,8 +77,9 @@ interaction with the system.
 
 _**Note:** Order descending chronologically._
 
-* [Wikipedia: User experience](https://en.wikipedia.org/wiki/User_experience)
+* [Mission, Vision & Values][Mission, Vision & Values] 
 
 ## 9. Errata
 
 ...
+
