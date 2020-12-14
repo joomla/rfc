@@ -63,13 +63,12 @@ This specification will not define specific workflows or designs for the CMS or 
 
 ### 6.2 Sponsors
 
-* N/A
+* Sigrid Gramlinger <sigrid.gramlinger@community.joomla.org>
 
 ### 6.3 Contributors
 
 * Christiane Maier-Stadtherr <christiane.maier-stadtherr@community.joomla.org>
 * Florian Bauer <florian.bauer@webfeuer.wien>
-* Sigrid Gramlinger <sigrid.gramlinger@community.joomla.org>
 * Guido De Gobbis <degobbis@googlemail.com>
 
 ## 7. Votes
