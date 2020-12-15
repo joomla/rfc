@@ -1,10 +1,13 @@
 # Joomla! Feature / Specification RfCs
 
-The idea behind this repository is to provide a central place for RfCs for new
-features for the Joomla! projects and Specifications (interfaces) for further 
-development.
+A **Request for Comments** (RfC) is a commonly used publication format to discuss and document decisions.
+This repository provides a central place for RfCs for new Features, Specifications and Processes for the Joomla!
+projects.
 
-The index of existing RfCs, whether they are in Pre-Draft state or accepted, is found in [index.md](index.md). 
+An RfC can be in one of a couple of states, depending on maturity. These states are defined in the
+[workflow document](bylaws/workflow.md).
+
+* [Index of existing RfCs](index.md). 
 
 ## Proposing a Joomla! Feature or a Joomla! Specification
 
