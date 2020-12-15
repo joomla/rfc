@@ -15,8 +15,8 @@
 4. The measure passes if a simple majority of the votes cast are “in favor”, i.e.,
    tne number of "in favor" votes is greater than the number of "against" votes. The
    measure does not pass otherwise.
-5. The RfC votes are not secret. Names and votes will be published in the Meta
-   document of the RfC, independent from the outcome of the vote.
+5. The RFC votes are not secret. Names and votes will be published in the Meta
+   document of the RFC, independent from the outcome of the vote.
 
 _N.B.: “Abstain” votes are counted only for quorum, and are not counted when calculating majority._
 
@@ -33,7 +33,7 @@ _N.B.: “Abstain” votes are counted only for quorum, and are not counted when
    The measure does not pass otherwise (i.e., the proposal passes on to Entrance
    Vote).
 8. Responsibility for vote tallying is shared between the Production Department Coordinator
-   and the Sponsor of the RfC, both of whom should confirm the result.
+   and the Sponsor of the RFC, both of whom should confirm the result.
 
 ## 3. Entrance Vote
 
@@ -51,7 +51,7 @@ _N.B.: “Abstain” votes are counted only for quorum, and are not counted when
 
 ## 4. Readiness Vote
 
-2. All members of the Working Group for that specific RfC may vote on Readiness
+2. All members of the Working Group for that specific RFC may vote on Readiness
    measures.
 4. The Readiness vote is conducted in the Workgroup lead by the Sponsor. There are no formal
    requirements beside the quorum and the majority. 
@@ -59,7 +59,7 @@ _N.B.: “Abstain” votes are counted only for quorum, and are not counted when
 7. The measure passes if a simple majority of the votes cast are “in favor”. The
    measure does not pass otherwise.
 8. Responsibility for vote tallying is shared between the Editor
-   and the Sponsor of the RfC, both of whom should confirm the result.
+   and the Sponsor of the RFC, both of whom should confirm the result.
 
 ## 5. Acceptance Vote
 

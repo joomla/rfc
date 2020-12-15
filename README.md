@@ -1,17 +1,17 @@
-# Joomla! Feature / Specification RfCs
+# Joomla! Feature / Specification RFCs
 
-The idea behind this repository is to provide a central place for RfCs for new
+The idea behind this repository is to provide a central place for RFCs for new
 features for the Joomla! projects and Specifications (interfaces) for further 
 development.
 
-The index of existing RfCs, whether they are in Pre-Draft state or accepted, is found in [index.md](index.md). 
+The index of existing RFCs, whether they are in Pre-Draft state or accepted, is found in [index.md](index.md). 
 
 ## Proposing a Joomla! Feature or a Joomla! Specification
 
 To propose a Feature / Specification:
 
 - fork this repo, create a branch, checkout that branch, add the Feature / 
-  Specification RfC in `proposed/`, push the branch to Github, and send a pull 
+  Specification RFC in `proposed/`, push the branch to Github, and send a pull 
   request; or,
 - create a ticket to start a discussion on Github; or,
 - start a conversation on the [CMS mailing list][joomla-dev-cms] for the CMS, the
@@ -24,8 +24,8 @@ To propose a Feature / Specification:
 
 ## GitHub usage
 
-All discussion regarding a Joomla! Feature and Specification RfC happens on the 
-mailing lists. Issues are used for bug tracking, and any RfC might not get appropriate
+All discussion regarding a Joomla! Feature and Specification RFC happens on the 
+mailing lists. Issues are used for bug tracking, and any RFC might not get appropriate
 attention on the Issue Tracker.
 
 Please do not simply file an issue or PR and walk-away. The most likely outcome
@@ -33,9 +33,9 @@ is that it will not get seen or addressed in foreseeable time.
 
 ## Language and Translations
 
-All Joomla! Feature / Specification RfCs are written in English.
+All Joomla! Feature / Specification RFCs are written in English.
 Joomla! does not offer official translations into other languages
-but other external entities are free to translate the RfCs in accordance
+but other external entities are free to translate the RFCs in accordance
 with the license.
 
 ## Voting
@@ -50,7 +50,7 @@ Department Coordinator. The current list of Team Leaders is available on the [Vo
 
 The wording and structure for the documents in this repository are heavily inspired
 by the [PHP FIG][]. In fact, the README, workflow bylaw, voting protocol, and the 
-RfC document structure were created from copies of the FIG original.
+RFC document structure were created from copies of the FIG original.
 
 [PHP FIG]: http://www.php-fig.org/
 
