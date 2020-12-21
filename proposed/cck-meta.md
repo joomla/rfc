@@ -20,6 +20,11 @@ third-party extensions.
 
 ## 4. Approaches
 
+Already in the days of the Idea Portal, the desire for a Content Construction Kit (CCK) was high on the wish list.
+
+A few years ago, a clumsy attempt was made with the Unified Content Model (UCM), but it was dropped again because the
+concept proved to be unsuitable.
+
 ### 4.1 Approach 1
 
 #### 4.1.1 Projects Using Approach 1
