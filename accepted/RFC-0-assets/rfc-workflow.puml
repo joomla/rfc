@@ -44,7 +44,7 @@ state Rejected as "**Rejected**" {
 state O <<join>>
 
 
-PreDraft --> Draft: **Entrance Vote**\nClass 1,2 and 3 Members\n**passes**
+PreDraft --> Draft: **Entrance Vote**\nProduction Department Leaders\nor\nClass 1,2 and 3 Members\n**passes**
 PreDraft --> Rejected: **Rejection Vote**\nProduct Department Leaders\n(Features/Specifications only)\n**passes**\n\nor\n\n**Entrance Vote**\nClass 1,2 and 3 Members\n**fails**
 
 Draft --> Review: **Readiness Vote**\nWorking Group Members\n**passes**
@@ -61,7 +61,7 @@ PreDraft -> O
 Draft -left-> O
 Review -left-> O
 
-Abandoned -up-> Draft: **Entrance Vote**\nClass 1,2 and 3 Members\n**passes**\n(only once)
+Abandoned -up-> Draft: **Entrance Vote**\nProduction Department Leaders\nor\nClass 1,2 and 3 Members\n**passes**\n(only once)
 
 Abandoned --> [*]: Abandoned\nfor the second time
 Deprecated --> [*]
