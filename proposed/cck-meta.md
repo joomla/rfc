@@ -43,11 +43,11 @@ concept proved to be unsuitable.
 
 ### 6.1 Editor(s)
 
-* \<full name> <\<email address>>
+* Suki Nozick <sukinoz@gmail.com>
 
 ### 6.2 Sponsors
 
-* N/A
+* Niels Braczek <nbraczek@bsds.de>
 
 ### 6.3 Contributors
 
