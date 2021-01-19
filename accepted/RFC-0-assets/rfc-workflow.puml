@@ -26,7 +26,7 @@ state Accepted as "**Accepted**" {
     Implemented: **Actions:** Maintain feature
     Implemented: **Timeline:** unlimited
 
-    note "For Feature RfCs only" as N1
+    note "For Feature RFCs only" as N1
     [*] --> Development
     Development --> Implemented: Developed, tested and merged\nfor next available\nmajor or minor release
     Implemented --> [*]
