@@ -43,6 +43,9 @@ This integration of a former version DP-Fields extension into the CMS.
 As useful as this new functionality is, it is extremely limited because there is no way to filter or sort  by the value
 of the custom fields.
 
+In Joomla 3.9 ([PR#20890](https://github.com/joomla/joomla-cms/pull/20890)), custom admin menus with a lot of filtering
+options were added, which is another major step towards a simple CCK supporting (kind of) different content types.
+
 ### 4.1 Approach 1
 
 #### 4.1.1 Projects Using Approach 1
