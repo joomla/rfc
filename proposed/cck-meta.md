@@ -121,7 +121,7 @@ complement `com_content` perfectly.
 
 ### 6.3 Contributors
 
-* N/A
+* Cyril Thibout <cyril@pulsar-agency.com>
 
 ## 7. Votes
 
