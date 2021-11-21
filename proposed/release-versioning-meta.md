@@ -55,8 +55,15 @@ The core contributors have not been very cautious about deprecations in the past
 been [deprecated for Joomla 3.4](https://github.com/joomla/joomla-cms/issues/6125#issuecomment-75035212), but made it
 into Joomla 4 (although renamed to CMSObject) with the deprecation annotation still in place. Section 3 describes how to
 handle and document deprecations. Among other things, it stipulates that a replacement must be offered and used, if the
-deprecation is not phasing out a feature. The documentation requirements make sure that legacy code can easily be
-adopted to the new implementation.
+deprecation is not phasing out a feature. This requirement serves several purposes:
+
+- It proves that the new solution actually works where it will end up being used.
+- It shows developers, who consider the code as authoritative documentation, how the new solution works and should be
+  used.
+- It prevents the release lead of the following major version from being surprised by the "leftovers" and maybe
+  therefore not being able to meet the schedule.
+
+The documentation requirements make sure that legacy code can easily be adopted to the new implementation.
 
 ### 4.4 User Interface
 
@@ -67,10 +74,11 @@ Semantic Versioning. Section 4 provides the rules for dealing with user interfac
 
 ### 4.5 External Dependencies
 
-Section 5 deals with external dependencies, a.k.a. libraries. The implementation details of external dependencies are not under the control of the Joomla project. Therefore, the code
-of these dependencies is basically internal and does not fall under Semantic Versioning. As a result, these dependencies
-can be updated or even exchanged without breaking the compatibility promise. As soon as an external API officially becomes part of the
-public API, as in the case of Bootstrap, the rules of Semantic Versioning do apply.
+Section 5 deals with external dependencies, a.k.a. libraries. The implementation details of external dependencies are
+not under the control of the Joomla project. Therefore, the code of these dependencies is basically internal and does
+not fall under Semantic Versioning. As a result, these dependencies can be updated or even exchanged without breaking
+the compatibility promise. As soon as an external API officially becomes part of the public API, as in the case of
+Bootstrap, the rules of Semantic Versioning do apply.
 
 ## 5. People
 
@@ -94,6 +102,7 @@ public API, as in the case of Bootstrap, the rules of Semantic Versioning do app
 ## 7. Relevant Links
 
 _**Note:** Order descending chronologically._
+
 * [Semantic Versioning Specification](Semver)
 
 ## 8. Errata
