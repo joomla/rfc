@@ -245,11 +245,11 @@ class CupOfTea
      *
      * @deprecated 4.2  Will be removed in 5.0. Use CupOfTea::getTea() instead. 
      *                  Before (version < 4.2):
-     *                    $teaMaker = new CupOfTea(); 
-     *                    $tea = $teaMaker->makeTea($addSugar, $addMilk);
+     *                    $brewer = new CupOfTea(); 
+     *                    $tea = $brewer->makeTea($addSugar, $addMilk);
      *                  After (version >= 4.2):
-     *                    $teaMaker = new CupOfTea(); 
-     *                    $tea = $teaMaker->getTea(self::EARL_GREY, $addSugar, $addMilk);
+     *                    $brewer = new CupOfTea(); 
+     *                    $tea = $brewer->getTea(CupOfTea::EARL_GREY, $addSugar, $addMilk);
      */
     public function makeTea($addSugar = false, $addMilk = false) 
     {
