@@ -101,7 +101,7 @@ class CupOfTea
     {
         $boiler = new Boiler();
         $boiler->addWater(0.5);
-        $boiler->brew(97.7778); // heat up to 97.7778 °C
+        $boiler->cook(97.7778); // heat up to 97.7778 °C
 
         $tea = new Tea('earl grey');
 
@@ -156,7 +156,7 @@ class CupOfTea
         // Fall back to old code for PHP < 8.1
         $boiler = new Boiler();
         $boiler->addWater(0.5);
-        $boiler->brew(97.7778); // heat up to 97.7778 °C
+        $boiler->cook(97.7778); // heat up to 97.7778 °C
 
         $tea = new Tea('earl grey');
 
@@ -281,7 +281,7 @@ class CupOfTea
         // Fall back to old code for PHP < 8.1
         $boiler = new Boiler();
         $boiler->addWater(0.5);
-        $boiler->brew(97.7778); // heat up to 97.7778 °C
+        $boiler->cook(97.7778); // heat up to 97.7778 °C
 
         $tea = new Tea($type);
 
@@ -396,7 +396,7 @@ class CupOfHotDrink
         // Fall back to old code for PHP < 8.1
         $boiler = new Boiler();
         $boiler->addWater(0.5);
-        $boiler->brew(97.7778); // heat up to 97.7778 °C
+        $boiler->cook(97.7778); // heat up to 97.7778 °C
 
         $tea = new Tea('earl grey');
 
