@@ -70,19 +70,19 @@ applies to public API only.
 #### 3.1 Architectural Changes
 
 1. The official documentation MUST be updated to let users know about the change.
-    1. The DocBlock MUST be annotated to document the replacement for the deprecated element. The deprecation annotation
-       SHOULD be supplemented by a usage example for the replacement. Example:
-       ```php
-       /**
-        * ...
-        * @deprecated X.Y  Will be removed in X+1.0. Use <replacement> instead. 
-        *                  Before (version < X.Y):
-        *                  <sample code with deprecated element>
-        *                  After (version >= X.Y):
-        *                  <sample code using the replacement>
-        */
-       ```
-       with X.Y being the minor version introducing the deprecation.
+2. The DocBlock MUST be annotated to document the replacement for the deprecated element. The deprecation annotation
+   SHOULD be supplemented by a usage example for the replacement. Example:
+   ```php
+    /**
+     * ...
+     * @deprecated X.Y  Will be removed in X+1.0. Use <replacement> instead.
+     *                  Before (version < X.Y):
+     *                    <sample code with deprecated element>
+     *                  After (version >= X.Y):
+     *                    <sample code using the replacement>
+     */
+   ```
+   with X.Y being the minor version introducing the deprecation.
 2. A new minor release MUST be issued with the deprecation in place. That release MUST NOT use the deprecated code
    anywhere.
 3. The deprecated code MUST be removed in the next major release.
@@ -90,16 +90,16 @@ applies to public API only.
 #### 3.2 Phasing out Features
 
 1. The official documentation MUST be updated to let users know about the change.
-    1. The DocBlock MUST be annotated to document the replacement for the deprecated element. The deprecation annotation
-       SHOULD be supplemented by a recommendation for an alternative. Example:
-       ```php
-       /**
-        * ...
-        * @deprecated X.Y  Will be removed in X+1.0 without replacement. 
-        *                  Please consider using <solution A> or <solution B> instead.
-        */
-       ```
-       with X.Y being the minor version introducing the deprecation.
+1. The DocBlock MUST be annotated to document the future removal of the deprecated element. The deprecation annotation
+   SHOULD be supplemented by a recommendation for an alternative. Example:
+   ```php
+   /**
+    * ...
+    * @deprecated X.Y  Will be removed in X+1.0 without replacement.
+    *                  Please consider using <solution A> or <solution B> instead.
+    */
+   ```
+   with X.Y being the minor version introducing the deprecation.
 2. A new minor release MUST be issued with the deprecation in place. That release MUST NOT use the deprecated code
    anywhere.
 3. The deprecated code MUST be removed in the next major release.
@@ -113,4 +113,5 @@ applies to public API only.
 
 1. Updating external dependencies is considered compatible since it does not affect the public API.
 2. The API of the dependencies is not part of the project's API, unless explicitly stated in the official documentation.
-3. Extension developers MUST NOT rely on the presence of dependencies that are not covered in the official documentation.
+3. Extension developers MUST NOT rely on the presence of dependencies that are not covered in the official
+   documentation.
