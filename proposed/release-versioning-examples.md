@@ -77,7 +77,7 @@ class CupOfTea
     public function makeTea($addSugar = false, $addMilk = false)
     {
         // Feature switch
-        if (compare_version(PHP_VERSION, '8.1', '>=')) {
+        if (version_compare(PHP_VERSION, '8.1', '>=')) {
             $tea = php_make_caffeine_drink(type: 'earl grey', amount: '0.5', sugar: $sugar ? 4 : 0, milk: $milk ? 100 : 0);
             $cup = new Cup();
             $cup->addIngredient($tea);
@@ -203,7 +203,7 @@ class CupOfTea
      */
     public function getTea($type, $addSugar = false, $addMilk = false) 
     {
-        if (compare_version(PHP_VERSION, '8.1', '>=')) {
+        if (version_compare(PHP_VERSION, '8.1', '>=')) {
             $drink = php_make_caffeine_drink(type: $type, amount: '0.5', sugar: $sugar ? 4 : 0, milk: $milk ? 100 : 0);
             $cup = new Cup();
             $cup->addIngredient($drink);
@@ -254,7 +254,7 @@ class CupOfCoffee
      */
     public function __construct()
     {
-        if (compare_version(PHP_VERSION, '8.1', '<')) {
+        if (version_compare(PHP_VERSION, '8.1', '<')) {
             throw new \RuntimeException('This class requires PHP >= 8.1');
         }
     }
@@ -314,7 +314,7 @@ class CupOfHotDrink
      */
     public function getHotDrink($type, $addSugar = false, $addMilk = false)
     {
-        if (compare_version(PHP_VERSION, '8.1', '<')) {
+        if (version_compare(PHP_VERSION, '8.1', '<')) {
             $tea = php_make_caffeine_drink(type: $type, amount: '0.5', sugar: $sugar ? 4 : 0, milk: $milk ? 50 : 0);
             $cup = new Cup();
             $cup->addIngredient($tea);
