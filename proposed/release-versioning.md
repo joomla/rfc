@@ -75,7 +75,7 @@ applies to public API only.
    ```php
     /**
      * ...
-     * @deprecated X.Y  Will be removed in X+1.0. Use <replacement> instead.
+     * @deprecated X.Y  Will be removed in X+1.0. Use {@see <replacement>} instead.
      *                  Before (version < X.Y):
      *                    <sample code with deprecated element>
      *                  After (version >= X.Y):
@@ -83,14 +83,14 @@ applies to public API only.
      */
    ```
    with X.Y being the minor version introducing the deprecation.
-2. A new minor release MUST be issued with the deprecation in place. That release MUST NOT use the deprecated code
+3. A new minor release MUST be issued with the deprecation in place. That release MUST NOT use the deprecated code
    anywhere.
-3. The deprecated code MUST be removed in the next major release.
+4. The deprecated code MUST be removed in the next major release.
 
 #### 3.2 Phasing out Features
 
 1. The official documentation MUST be updated to let users know about the change.
-1. The DocBlock MUST be annotated to document the future removal of the deprecated element. The deprecation annotation
+2. The DocBlock MUST be annotated to document the future removal of the deprecated element. The deprecation annotation
    SHOULD be supplemented by a recommendation for an alternative. Example:
    ```php
    /**
@@ -100,9 +100,9 @@ applies to public API only.
     */
    ```
    with X.Y being the minor version introducing the deprecation.
-2. A new minor release MUST be issued with the deprecation in place. That release MUST NOT use the deprecated code
+3. A new minor release MUST be issued with the deprecation in place. That release MUST NOT use the deprecated code
    anywhere.
-3. The deprecated code MUST be removed in the next major release.
+4. The deprecated code MUST be removed in the next major release.
 
 ### 4 User Interface
 
