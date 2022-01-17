@@ -22,21 +22,21 @@ A Working Group consists of, at minimum:
 The proposal is not required to be fully developed at this point, although that is
 permitted. At minimum, it must include a statement of the problem to be solved
 ("what" in section *1. Summary* and "why" in section *2. Why Bother*, see
-[Meta Document template](templates/spec-template-meta.md)) and
+[Meta Document template](../templates/spec-template-meta.md)) and
 basic information on the general approach to be taken. Further revision and
 expansion is expected during the Draft Phase.
 
-Once the Working Group deems the first two sections (*1. Summary and 2. Why bother?*)
-complete, the Sponsor may request an Entrance Vote among the Production Department Team
-Leaders and the Production Department Coordinator to determine if there is a general
-interest in publishing a Joomla Feature or Specification or implementing a Process for
-the proposed topic. If the vote fails, the Sponsor may request an Entrance Vote of all
-Open Source Matters Members (Class 1, 2 and 3).
+For **Features** and **Specifications**, Production Department Team Leaders and the
+Production Department Coordinator may reject a proposal, if it does not match
+the vision and the mission of the Joomla project, or if its implementation would
+cause unmanageable maintenance effort.
 
-For **Feature** or **Specification** proposals, the Production Department Team Leaders
-and Production Department Coordinator may initiate a Rejection Vote if the proposal does
-not meet the vision and mission of the Joomla project, or if its implementation would
-create an unmanageable maintenance burden. A rejection must be justified in detail.
+The Sponsor may then call for an Entrance Vote of all members of Open Source 
+Matters (Class 1, 2 and 3) to enquire whether the Joomla community is generally
+interested in publishing a Joomla Feature, publishing a Joomla Specification or
+implement a Process for the proposed subject, even if they disagree with the
+details of the proposal, i.e., the Entrance Vote is based on the first two sections
+(*1. Summary* and *2. Why Bother*) only.
 
 If the vote passes, the proposal officially enters Draft stage. The proposal
 receives an RFC number incremented from the highest numbered RFC
