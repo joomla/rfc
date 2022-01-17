@@ -41,7 +41,7 @@ The sponsor is responsible for managing the review stage and votes.
 | N/A | [Mobile App][mobile-app]  | Elisa Foltyn <elisa.foltyn@community.joomla.org> | N/A |
 | N/A | [Simplify Admin Views*][simplify-admin]  | Elisa Foltyn <elisa.foltyn@community.joomla.org> | N/A |
 | N/A | [Simplify Admin Views*][simplify-admin2]  | Astrid Günther <astrid.guenther@community.joomla.org> | N/A |
-| N/A | [Composer support][composer]  | Astrid Günther <astrid.guenther@community.joomla.org> | N/A |
+| N/A | [Composer support][composer]  | Astrid Günther <astrid.guenther@community.joomla.org> | Niels Braczek <niels.braczek@community.joomla.org> |
 
 *) Two different proposals on the same target, need to be merged 
 
