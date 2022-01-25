@@ -61,6 +61,16 @@ installation process.
 
 ## 4. Approaches
 
+### 4.0 Probable Problems
+
+#### "Dependency Hell"
+
+If extension A requires version X and another extension B requires an incompatible version Y of the same external
+library, one of those extensions cannot be installed. On the other hand, under normal circumstances, the two extensions
+would not run in the same thread, so they *could* use their own library version.
+
+> Is 'prefixing' a solution in those cases?
+
 ### 4.1 Basic Usage
 
 #### Installing Joomla
