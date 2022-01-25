@@ -20,6 +20,8 @@ Planned feature for Joomla5.
 
 Having a core component that allows configuration of forms and views. This includes custom fields and a migration from Joomla4.
 
+Respect versioning for custom fields.
+
 Creating a API for 3rd part components to use the functionality.
 
 ### 3.2 Non-Goals
