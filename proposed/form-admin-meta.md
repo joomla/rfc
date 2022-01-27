@@ -2,41 +2,50 @@
 
 ## 1. Summary
 
-Joomla uses forms based on XML and rendered with the help of the Form class.
+Joomla uses forms that are defined in XML and rendered using the Form class.
 
-While this is a flexible way and the forms can be changed with plugins, it is limited and in some way hard coded. Database constraints are implemented through business logic within the models and not on the database level.
- 
-This specification aims to define an extension of the form building process. After implementation it allows site builder the change the core forms. Adding and removing fields should be possible and core form building and custom fields are merged. 
+Although this is a flexible way and the forms can be changed using plugins, it is limited and hard-coded in some ways.
+
+This specification aims to define an extension to the form creation process. This form editor shall allow modifying
+forms, add or remove predefined fields and custom fields and change their order.
 
 ## 2. Why Bother?
 
-Hard coded forms are not state of the art. Joomla! allows today a lot of flexibility but it is up to developers to implement. If we can change the way we are creating forms we would allow site builders to change Joomla that it fulfils the needs of clients better.  
+Hard-coded forms are no longer state of the art. Joomla today offers a lot of flexibility, but it needs developers to
+implement changes. If we can change the way we create forms, we would allow website creators to adapt Joomla to better
+meet users' needs.
 
 ## 3. Scope
 
-Planned feature for Joomla5.
-
 ### 3.1 Goals
 
-Having a core component that allows configuration of forms and views. This includes custom fields and a migration from Joomla4.
+The goal is to provide a graphical user interface for creating and editing forms and views as a core component. Standard
+fields and user-defined fields are to be equally supported.
 
-Respect versioning for custom fields.
+When saved, user-defined fields must be included in versioning, provided the underlying table supports versioning.
 
-Creating a API for 3rd part components to use the functionality.
+The functionality shall also be available for extensions.
+
+In the course of the
+implementation, [accessibility requirements and recommendations](https://accessibilitycluster.com/main-results/forms-editor)
+should be taken into account for the form renderer.
 
 ### 3.2 Non-Goals
 
-Migration of 3rd part components to the new way of form rendering. 
+It is not the goal of this component to force changes to 3rd party extensions.
 
 ## 4. Approaches
 
+The component will consist of a Visual Editor and a Form Preprocessor. The preprocessor splits the form content so that
+the handler of the original form gets the data it expects and ensures the correct handling of the remaining form
+content.
+
+Database constraints are implemented through business logic within the models and not at the database level. In the
+course of revising the database, this should be corrected if possible.
+
 ### 4.1 Chosen Approach
 
-TBD
- 
 ## 5. Design Decisions
-
-None at this state
 
 ## 6. People
 
@@ -46,7 +55,7 @@ None at this state
 
 ### 6.2 Sponsors
 
-* N/A
+* Niels Braczek, <nbraczek@bsds.de>
 
 ### 6.3 Contributors
 
