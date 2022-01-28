@@ -22,7 +22,7 @@ meet users' needs.
 The goal is to provide a graphical user interface for creating and editing forms and views as a core component. Standard
 fields and user-defined fields are to be equally supported.
 
-When saved, user-defined fields must be included in versioning, provided the underlying table supports versioning.
+When saved, user-defined fields must be included in versioning, provided the affected extension/feature supports versioning.
 
 The functionality shall also be available for extensions.
 
