@@ -28,7 +28,7 @@ The functionality shall also be available for extensions.
 
 In the course of the
 implementation, [accessibility requirements and recommendations](https://accessibilitycluster.com/main-results/forms-editor)
-should be taken into account for the form renderer.
+should be taken into account.
 
 ### 3.2 Non-Goals
 
