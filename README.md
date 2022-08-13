@@ -20,9 +20,9 @@ An RFC can be in one of a couple of states, depending on maturity. These states 
 To propose a Feature / Specification:
 
 - fork this repo, create a branch, checkout that branch, add the Feature / 
-  Specification RFC in `proposed/`, push the branch to Github, and send a pull 
+  Specification RFC in `proposed/`, push the branch to GitHub, and send a pull 
   request; or,
-- create a ticket to start a discussion on Github; or,
+- create a ticket to start a discussion on GitHub; or,
 - start a conversation on the [CMS mailing list][joomla-dev-cms] for the CMS, the
   [Framework mailing list][joomla-dev-framework] for the Framework, or the
   [general mailing list][joomla-dev-general] for all other Joomla! projects.
