@@ -4,6 +4,10 @@ The idea behind this repository is to provide a central place for RFCs for new
 features for the Joomla! projects and Specifications (interfaces) for further 
 development.
 
+To learn more about the importance of an RFC process, refer to the article [How to Write RFCs for Open Source Projects](https://dzone.com/articles/how-to-write-rfcs-for-open-source-projects) on DZone.
+This RFC process follows the example of the PHP Framework Interoperation Group (PHP-FIG), which has worked successfully
+for many years and still is.
+
 The index of existing RFCs, whether they are in Pre-Draft state or accepted, is found in [index.md](index.md). 
 
 ## Proposing a Joomla! Feature or a Joomla! Specification
