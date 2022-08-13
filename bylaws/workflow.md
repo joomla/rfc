@@ -1,4 +1,4 @@
-# Joomla! Feature / Specification RfC Workflow
+# Joomla! Feature / Specification RFC Workflow
 
 ## Pre-Draft
 
@@ -30,8 +30,8 @@ interested in publishing a Joomla! Feature or publishing a Joomla! Specification
 for the proposed subject, even if they disagree with the details of the proposal.
 
 If the vote passes, the proposal officially enters Draft stage. The proposal
-receives a RfC number incremented from the highest numbered RfC
-which has passed the Entrance Vote, regardless of the status of that RfC.
+receives a RFC number incremented from the highest numbered RFC
+which has passed the Entrance Vote, regardless of the status of that RFC.
 
 The Working Group may continue to work on the proposal during the complete voting
 period.
@@ -92,9 +92,9 @@ Unless a proposal is moved to Draft stage again, it must remain in Review stage 
 a minimum of four weeks and until
 
 - the User Interface is defined and the manual (help) page is written for the
-  functionality proposed in **Feature RfCs**.
+  functionality proposed in **Feature RFCs**.
 - two independent viable trial implementations can be demonstrated for
-  **Specification RfCs**, ideally as examples in the proposal repository. The 
+  **Specification RFCs**, ideally as examples in the proposal repository. The 
   responsibility for finding such trial implementations and presenting them to the 
   Production Department Team Leaders lies with the Working Group, and especially 
   the Editor  and Sponsor. As not all specifications are PHP interfaces where the 
@@ -115,7 +115,7 @@ dissolved,  however the Editor's input (or a nominated individual communicated t
 the Production Department Coordinator) may be called upon in the future should 
 typos, changes or Errata on the specification be raised.
 
-In case of Feature RfCs, a Development Team is created within the Production
+In case of Feature RFCs, a Development Team is created within the Production
 Department. 
 
 ## Deprecated

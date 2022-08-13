@@ -1,14 +1,14 @@
-# Joomla Feature / Specification RfCs
+# Joomla Feature / Specification RFCs
 
-According to the [Joomla RfC Workflow Bylaw][workflow] each Joomla RfC has a
+According to the [Joomla RFC Workflow Bylaw][workflow] each Joomla RFC has a
 status as it is being worked on. Once a proposal has passed the Entrance Vote it
-will be listed here as "Draft". Unless a Joomla Feature / Specification RfC is marked
+will be listed here as "Draft". Unless a Joomla Feature / Specification RFC is marked
 as "Accepted" it is subject to change. Draft can change drastically, but Review will
 only have minor changes.
 
-As also described in the [Joomla RfC Workflow Bylaw][workflow], the editor(s) of a
+As also described in the [Joomla RFC Workflow Bylaw][workflow], the editor(s) of a
 proposal are essentially the lead contributors and writers of the Joomla Feature /
-Specification RfCs and they are supported by two voting members. Those voting 
+Specification RFCs and they are supported by two voting members. Those voting 
 members are (1) the Coordinator who is responsible for managing the review stage and 
 votes, and (2) a second sponsor.
 
