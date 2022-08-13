@@ -42,6 +42,7 @@ The sponsor is responsible for managing the review stage and votes.
 | N/A | [Simplify Admin Views*][simplify-admin]  | Elisa Foltyn <elisa.foltyn@community.joomla.org> | N/A |
 | N/A | [Simplify Admin Views*][simplify-admin2]  | Astrid Günther <astrid.guenther@community.joomla.org> | N/A |
 | N/A | [Composer support][composer]  | Astrid Günther <astrid.guenther@community.joomla.org> | N/A |
+| N/A | [User Experience][user-experience]  | Niels Braczek <niels.braczek@community.joomla.org> | N/A |
 
 *) Two different proposals on the same target, need to be merged 
 
@@ -68,3 +69,4 @@ _**Legend:** A = Accepted | D = Draft | P = Pre-Draft | R = Review | X = Depreca
 [simplify-admin2]: https://github.com/joomla-x/joomla-standards/pull/7
 [composer]: https://github.com/joomla-x/joomla-standards/pull/8
 [rfc-procedure]: https://github.com/joomla-x/joomla-standards/blob/master/accepted/RFC-0-rfc-meta.md
+[user-experience]: https://github.com/joomla-x/joomla-standards/pull
