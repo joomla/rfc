@@ -1,14 +1,14 @@
-# Joomla Feature / Specification RfCs
+# Joomla Feature / Specification RFCs
 
-According to the [Joomla RfC Workflow Bylaw][workflow] each Joomla RfC has a
+According to the [Joomla RFC Workflow Bylaw][workflow] each Joomla RFC has a
 status as it is being worked on. Once a proposal has passed the Entrance Vote it
-will be listed here as "Draft". Unless a Joomla Feature / Specification RfC is marked
+will be listed here as "Draft". Unless a Joomla Feature / Specification RFC is marked
 as "Accepted" it is subject to change. Draft can change drastically, but Review will
 only have minor changes.
 
-As also described in the [Joomla RfC Workflow Bylaw][workflow], the editor(s) of a
+As also described in the [Joomla RFC Workflow Bylaw][workflow], the editor(s) of a
 proposal are essentially the lead contributors and writers of the Joomla Feature /
-Specification RfCs and they are supported by at least one voting member, the sponsor.
+Specification RFCs and they are supported by at least one voting member, the sponsor.
 The sponsor is responsible for managing the review stage and votes.
 
 ## Index by Status
@@ -17,7 +17,7 @@ The sponsor is responsible for managing the review stage and votes.
 
 | Num | Title                          | Editor                  | Sponsor           |
 |:---:|--------------------------------|-------------------------|-------------------|
-| 0 | [RfC Procedure][rfc-procedure] | Niels Braczek <niels.braczek@community.joomla.org> | Marco Dings <marco.dings@community.joomla.org> |
+| 0 | [RFC Procedure][rfc-procedure] | Niels Braczek <niels.braczek@community.joomla.org> | Marco Dings <marco.dings@community.joomla.org> |
 
 ### Review
 
@@ -55,7 +55,7 @@ The sponsor is responsible for managing the review stage and votes.
 
 | Status | Num | Title                          | Editor                  | Sponsor           |
 |--------|:---:|--------------------------------|-------------------------|-------------------|
-| A | 0 | [RfC Procedure][rfc-procedure] | Niels Braczek <niels.braczek@community.joomla.org> | Marco Dings <marco.dings@community.joomla.org> |
+| A | 0 | [RFC Procedure][rfc-procedure] | Niels Braczek <niels.braczek@community.joomla.org> | Marco Dings <marco.dings@community.joomla.org> |
 
 _**Legend:** A = Accepted | D = Draft | P = Pre-Draft | R = Review | X = Deprecated_
 
