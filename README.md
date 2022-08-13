@@ -4,6 +4,12 @@ A **Request for Comments** (RFC) is a commonly used publication format to discus
 This repository provides a central place for RFCs for new Features, Specifications and Processes for the Joomla!
 projects.
 
+To learn more about the importance of an RFC process, refer to the
+article [How to Write RFCs for Open Source Projects](https://dzone.com/articles/how-to-write-rfcs-for-open-source-projects)
+on DZone.
+This RFC process follows the example of the PHP Framework Interoperation Group (PHP-FIG), which has worked successfully
+for many years and still is.
+
 An RFC can be in one of a couple of states, depending on maturity. These states are defined in the
 [workflow document](bylaws/workflow.md).
 
