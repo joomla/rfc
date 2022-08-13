@@ -37,8 +37,11 @@ All discussion regarding a Joomla! Feature and Specification RFC happens on the
 mailing lists. Issues are used for bug tracking, and any RFC might not get appropriate
 attention on the Issue Tracker.
 
-Please do not simply file an issue or PR and walk-away. The most likely outcome
-is that it will not get seen or addressed in foreseeable time.
+**Please do not simply file an issue or PR and walk-away. The most likely outcome
+is that it will not get seen or addressed in foreseeable time.**
+If you feel that no one cares about your proposal, please contact
+the [Software Architecture & Strategy Team](https://volunteers.joomla.org/teams/software-architecture-strategy-working-group).
+We want every idea to be taken seriously.
 
 ## Language and Translations
 
