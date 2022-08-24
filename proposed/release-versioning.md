@@ -44,8 +44,8 @@ Because Semantic Versioning applies to public API only, a distinction between pu
 1. Changes to the public API are subject to the rules of semantic versioning.
 2. In order to distinguish these elements from the internal elements, the following applies:
     1. Existing public structural elements SHOULD be annotated with `@api` in the corresponding DocBlock.
-    1. Newly introduced public structural elements MUST be annotated with `@api` in the corresponding DocBlock.
-    2. Public structural elements MUST be included in the official documentation.
+    2. Newly introduced public structural elements MUST be annotated with `@api` in the corresponding DocBlock.
+    3. Public structural elements MUST be included in the official documentation.
 
 #### 2.2 Internal API
 
@@ -55,10 +55,10 @@ extension developers.
 1. Changes to the internal API are not subject to the rules of semantic versioning.
 2. In order to distinguish these elements from the public elements, the following applies:
     1. Existing internal structural elements SHOULD be annotated with `@internal` in the corresponding DocBlock.
-    1. Newly introduced structural elements MUST be annotated with `@internal` in the corresponding DocBlock.
-    2. Structural elements with the access modifier `private` and structural elements in final classes with the access
+    2. Newly introduced structural elements MUST be annotated with `@internal` in the corresponding DocBlock.
+    3. Structural elements with the access modifier `private` and structural elements in final classes with the access
        modifier `protected` MUST be treated as internal.
-    3. Internal structural elements MUST NOT be included in the official documentation. All documentation needed by core
+    4. Internal structural elements MUST NOT be included in the official documentation. All documentation needed by core
        developers SHOULD be available in the corresponding DocBlock.
 
 ### 3 Deprecations
@@ -75,7 +75,7 @@ applies to public API only.
    ```php
     /**
      * ...
-     * @deprecated X.Y  Will be removed in X+1.0. Use {@see <replacement>} instead.
+     * @deprecated X.Y  Will be removed in X+2.0. Use {@see <replacement>} instead.
      *                  Before (version < X.Y):
      *                    <sample code with deprecated element>
      *                  After (version >= X.Y):
@@ -95,7 +95,7 @@ applies to public API only.
    ```php
    /**
     * ...
-    * @deprecated X.Y  Will be removed in X+1.0 without replacement.
+    * @deprecated X.Y  Will be removed in X+2.0 without replacement.
     *                  Please consider using <solution A> or <solution B> instead.
     */
    ```

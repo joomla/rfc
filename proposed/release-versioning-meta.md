@@ -4,7 +4,7 @@
 
 _This Specification describes how versions are numbered in Joomla projects._
 
-This specification aims to help developers, code reviewers and release leads to determine, whether a new piece or a
+This specification aims to help developers, code reviewers and release managers to determine, whether a new piece or a
 change of code belongs to the next patch, minor or major release. It will also cover documentation requirements that are
 related to versioning.
 
@@ -60,7 +60,7 @@ deprecation is not phasing out a feature. This requirement serves several purpos
 - It proves that the new solution actually works where it will end up being used.
 - It shows developers, who consider the code as authoritative documentation, how the new solution works and should be
   used.
-- It prevents the release lead of the following major version from being surprised by the "leftovers" and maybe
+- It prevents the release managers of the following major version from being surprised by the "leftovers" and maybe
   therefore not being able to meet the schedule.
 
 The documentation requirements make sure that legacy code can easily be adopted to the new implementation.

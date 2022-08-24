@@ -175,7 +175,7 @@ class CupOfTea
      *
      * @return  Cup
      *
-     * @deprecated 4.2  Will be removed in 5.0. Use CupOfTea::getTea() instead. 
+     * @deprecated 4.2  Will be removed in 6.0. Use CupOfTea::getTea() instead. 
      *                  Before (version < 4.2):
      *                    $brewer = new CupOfTea(); 
      *                    $tea = $brewer->makeTea($addSugar, $addMilk);
@@ -351,7 +351,7 @@ class CupOfHotDrink
 }
 
 /**
- * @deprecated 4.2  Will be removed in 5.0. Use CupOfHotDrink instead. 
+ * @deprecated 4.2  Will be removed in 6.0. Use CupOfHotDrink instead. 
  */
 class CupOfTea 
 {
@@ -364,7 +364,7 @@ class CupOfTea
      *
      * @return  Cup
      *
-     * @deprecated 4.2  Will be removed in 5.0. Use CupOfHotDrink::getHotDrink() instead. 
+     * @deprecated 4.2  Will be removed in 6.0. Use CupOfHotDrink::getHotDrink() instead. 
      *                  Before (version < 4.2):
      *                    $brewer = new CupOfTea(); 
      *                    $tea = $brewer->makeTea($addSugar, $addMilk);
