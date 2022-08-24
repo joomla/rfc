@@ -314,7 +314,7 @@ class CupOfHotDrink
      */
     public function getHotDrink($type, $addSugar = false, $addMilk = false)
     {
-        if (version_compare(PHP_VERSION, '8.1', '<')) {
+        if (version_compare(PHP_VERSION, '8.1', '>=')) {
             $tea = php_make_caffeine_drink(type: $type, amount: '0.5', sugar: $sugar ? 4 : 0, milk: $milk ? 50 : 0);
             $cup = new Cup();
             $cup->addIngredient($tea);
