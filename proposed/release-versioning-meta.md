@@ -64,6 +64,9 @@ deprecation is not phasing out a feature. This requirement serves several purpos
   therefore not being able to meet the schedule.
 
 The documentation requirements make sure that legacy code can easily be adopted to the new implementation.
+A comparison of old and new code shall make it easier for developers to adapt their code to the new conditions and
+provide sample code for documentation. It is important that the representation of the old and new code is both human-
+and machine-readable.
 
 ### 4.4 User Interface
 

@@ -71,7 +71,7 @@ applies to public API only.
 
 1. The official documentation MUST be updated to let users know about the change.
 2. The DocBlock MUST be annotated to document the replacement for the deprecated element. The deprecation annotation
-   SHOULD be supplemented by a usage example for the replacement. Example:
+   SHALL be supplemented by a usage example for the replacement. Example:
    ```php
     /**
      * ...
@@ -91,7 +91,7 @@ applies to public API only.
 
 1. The official documentation MUST be updated to let users know about the change.
 2. The DocBlock MUST be annotated to document the future removal of the deprecated element. The deprecation annotation
-   SHOULD be supplemented by a recommendation for an alternative. Example:
+   SHALL be supplemented by a recommendation for an alternative. Example:
    ```php
    /**
     * ...
