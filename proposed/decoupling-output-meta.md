@@ -45,7 +45,7 @@ less, it will even be possible to offer output layers with completely different 
 
 ### 6.2 Sponsors
 
-* N/A
+* Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org>
 
 ### 6.3 Contributors
 
@@ -53,8 +53,37 @@ less, it will even be possible to offer output layers with completely different 
 
 ## 7. Votes
 
-* **Entrance Vote:** _(not yet taken)_
-* **Acceptance Vote:** _(not yet taken)_
+### Entrance Vote: PROD2022/016
+
+| Voter                                       | Vote |
+|---------------------------------------------|-----:|
+| Benjamin Trenkle                            |   +1 |
+| Christiane Maier-Stadtherr / Viviana Menzel |    0 |
+| Crystal Dionysopoulos                       |   -1 |
+| David Jardin                                |    0 | 
+| Franciska Perisa                            |    0 |
+| Hannes Papenberg                            |   +1 |
+| Harald Leithner                             |   +1 |
+| Jacob Waisner                               |    0 |
+| Llewellyn van der Merve                     |   +1 |
+| Mike Brandner                               |   +1 |
+| Niels Braczek                               |   +1 |
+| Olivier Buisard                             |   +1 |
+| Philip Walton                               |   +1 |
+| Robert Deutz                                |    0 |
+| Roland Dalmulder                            |   -1 |
+| Shirielle Williams                          |    0 | 
+| Shivam Raiput                               |   +1 |
+| Sigrid Gramlinger                           |   -1 |
+| Tobias Zulauf                               |   -1 |
+| **Result: PASSED**                          |      |
+| **in favor**                                |    9 |
+| **against**                                 |    4 |
+| **abstentions**                             |    6 |
+| **no vote**                                 |    0 |
+
+### Acceptance Vote:
+_(not yet taken)_
 
 ## 8. Relevant Links
 
