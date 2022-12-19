@@ -27,9 +27,11 @@ The sponsor is responsible for managing the review stage and votes.
 
 ### Draft
 
-| Num | Title                          | Editor                  | Sponsor           |
-|:---:|--------------------------------|-------------------------|-------------------|
-| N/A | N/A                            | N/A                     | N/A               |
+| Num | Title                                   | Editor                                              | Sponsor                                                                |
+|:---:|-----------------------------------------|-----------------------------------------------------|------------------------------------------------------------------------|
+|  1  | [Decpoupling Output](decoupling-output) | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
+|  2  | [Form Admin](form-admin)                | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
+|  3  | [Simple CCK](simple-cck)                | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
 
 ### Pre-Draft
 
@@ -51,20 +53,33 @@ The sponsor is responsible for managing the review stage and votes.
 |:---:|--------------------------------|-------------------------|-------------------|
 | N/A | N/A                            | N/A                     | N/A               |
 
+### Rejected
+
+| Title                       | Editor                  | Sponsor           |
+|-----------------------------|-------------------------|-------------------|
+| [Append Form](append-form) | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
+
 ## Numerical Index
 
-| Status | Num | Title                          | Editor                  | Sponsor           |
-|--------|:---:|--------------------------------|-------------------------|-------------------|
-| A | 0 | [RFC Procedure][rfc-procedure] | Niels Braczek <niels.braczek@community.joomla.org> | Marco Dings <marco.dings@community.joomla.org> |
+| Status | Num | Title                                   | Editor                                             | Sponsor           |
+|--------|:---:|-----------------------------------------|----------------------------------------------------|-------------------|
+| A      |  0  | [RFC Procedure][rfc-procedure]          | Niels Braczek <niels.braczek@community.joomla.org> | Marco Dings <marco.dings@community.joomla.org> |
+| D      |  1  | [Decpoupling Output](decoupling-output) | Niels Braczek <niels.braczek@community.joomla.org> | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
+| D      |  2  | [Form Admin](form-admin)                | Niels Braczek <niels.braczek@community.joomla.org> | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
+| D      |  3  | [Simple CCK](simple-cck)                | Niels Braczek <niels.braczek@community.joomla.org> | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
 
 _**Legend:** A = Accepted | D = Draft | P = Pre-Draft | R = Review | X = Deprecated_
 
 [workflow]: bylaws/workflow.md
-[contentelements]: https://github.com/joomla-x/joomla-Specifications/tree/master/proposed
-[authorisation]: https://github.com/joomla-x/joomla-standards/pull/2
-[joomla-cli]: https://github.com/joomla-x/joomla-standards/pull/4
-[mobile-app]: https://github.com/joomla-x/joomla-standards/pull/5
-[simplify-admin]: https://github.com/joomla-x/joomla-standards/pull/6
-[simplify-admin2]: https://github.com/joomla-x/joomla-standards/pull/7
-[composer]: https://github.com/joomla-x/joomla-standards/pull/8
-[rfc-procedure]: https://github.com/joomla-x/joomla-standards/blob/master/accepted/RFC-0-rfc-meta.md
+[contentelements]: https://github.com/joomla/rfc/tree/master/proposed
+[authorisation]: https://github.com/joomla/rfc/pull/2
+[joomla-cli]: https://github.com/joomla/rfc/pull/4
+[mobile-app]: https://github.com/joomla/rfc/pull/5
+[simplify-admin]: https://github.com/joomla/rfc/pull/6
+[simplify-admin2]: https://github.com/joomla/rfc/pull/7
+[composer]: https://github.com/joomla/rfc/pull/8
+[rfc-procedure]: https://github.com/joomla/rfc/blob/master/accepted/RFC-0-rfc-meta.md
+[decoupling-output]: https://github.com/joomla/rfc/pull/36
+[form-admin]: https://github.com/joomla/rfc/pull/31
+[simple-cck]: https://github.com/joomla/rfc/pull/26
+[append-form]: https://github.com/joomla/rfc/pull/18
