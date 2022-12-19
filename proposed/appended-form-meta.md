@@ -53,6 +53,38 @@ task?
 
 ## 7. Votes
 
+### Entrance Vote: PROD2022/017
+
+| Voter                                       | Vote |
+|---------------------------------------------|-----:|
+| Benjamin Trenkle                            |  -1  |
+| Christiane Maier-Stadtherr / Viviana Menzel |  -1  |
+| Crystal Dionysopoulos                       |  -1  |
+| David Jardin                                |  -1  | 
+| Franciska Perisa                            |  -1  |
+| Hannes Papenberg                            |  -1  |
+| Harald Leithner                             |  -1  |
+| Jacob Waisner                               |  -1  |
+| Llewellyn van der Merve                     |  -1  |
+| Mike Brandner                               |  -1  |
+| Niels Braczek                               |  -1  |
+| Olivier Buisard                             |   0  |
+| Philip Walton                               |  -1  |
+| Robert Deutz                                |  -1  |
+| Roland Dalmulder                            |  -1  |
+| Shirielle Williams                          |  -1  | 
+| Shivam Raiput                               |      |
+| Sigrid Gramlinger                           |  -1  |
+| Tobias Zulauf                               |  -1  |
+| **Result: FAILED**                          |      |
+| **in favor**                                |   0  |
+| **against**                                 |  17  |
+| **abstentions**                             |   1  |
+| **no vote**                                 |   1  |
+
+### Acceptance Vote:
+_(not yet taken)_
+
 ## 8. Relevant Links
 
 ## 9. Errata
