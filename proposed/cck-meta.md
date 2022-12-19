@@ -125,8 +125,37 @@ complement `com_content` perfectly.
 
 ## 7. Votes
 
-* **Entrance Vote:** _(not yet taken)_
-* **Acceptance Vote:** _(not yet taken)_
+### Entrance Vote: PROD2022/019
+
+| Voter                                       | Vote |
+|---------------------------------------------|-----:|
+| Benjamin Trenkle                            |    0 |
+| Christiane Maier-Stadtherr / Viviana Menzel |   +1 |
+| Crystal Dionysopoulos                       |   +1 |
+| David Jardin                                |      | 
+| Franciska Perisa                            |   +1 |
+| Hannes Papenberg                            |   -1 |
+| Harald Leithner                             |   +1 |
+| Jacob Waisner                               |    0 |
+| Llewellyn van der Merve                     |   +1 |
+| Mike Brandner                               |   +1 |
+| Niels Braczek                               |   +1 |
+| Olivier Buisard                             |   +1 |
+| Philip Walton                               |   +1 |
+| Robert Deutz                                |   -1 |
+| Roland Dalmulder                            |   +1 |
+| Shirielle Williams                          |      | 
+| Shivam Raiput                               |   +1 |
+| Sigrid Gramlinger                           |   +1 |
+| Tobias Zulauf                               |   -1 |
+| **Result: PASSED**                          |      |
+| **in favor**                                |   12 |
+| **against**                                 |    3 |
+| **abstentions**                             |    2 |
+| **no vote**                                 |    2 |
+
+### Acceptance Vote:
+_(not yet taken)_
 
 ## 8. Relevant Links
 
