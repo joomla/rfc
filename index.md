@@ -29,9 +29,9 @@ The sponsor is responsible for managing the review stage and votes.
 
 | Num | Title                                   | Editor                                              | Sponsor                                                                |
 |:---:|-----------------------------------------|-----------------------------------------------------|------------------------------------------------------------------------|
-|  1  | [Decpoupling Output](decoupling-output) | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
-|  2  | [Form Admin](form-admin)                | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
-|  3  | [Simple CCK](simple-cck)                | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
+|  1  | [Decpoupling Output][decoupling-output] | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
+|  2  | [Form Admin][form-admin]                | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
+|  3  | [Simple CCK][simple-cck]                | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
 
 ### Pre-Draft
 
