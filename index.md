@@ -57,7 +57,7 @@ The sponsor is responsible for managing the review stage and votes.
 
 | Title                       | Editor                  | Sponsor           |
 |-----------------------------|-------------------------|-------------------|
-| [Append Form](append-form) | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
+| [Append Form][append-form] | Niels Braczek <niels.braczek@community.joomla.org>  | Llewellyn van der Merwe <llewellyn.van-der-merwe@community.joomla.org> |
 
 ## Numerical Index
 
