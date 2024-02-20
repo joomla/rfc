@@ -162,6 +162,8 @@ _(not yet taken)_
 _**Note:** Order descending chronologically._
 
 * [Custom Admin Menus PR#20890](https://github.com/joomla/joomla-cms/pull/20890)
+* [Discussion: Sort articles by custom field](https://github.com/joomla/joomla-cms/discussions/42430)
+* [Feature request: filter and sort articles by custom field](https://github.com/joomla/joomla-cms/issues/42831)
 
 ## 9. Errata
 
